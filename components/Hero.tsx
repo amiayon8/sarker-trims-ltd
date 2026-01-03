@@ -26,7 +26,7 @@ export function Hero() {
   const prevSlide = () => setCurrentIndex((prev) => (prev - 1 + images.length) % images.length);
 
   return (
-    <section className="relative bg-slate-900 h-[400px] lg:h-[700px] overflow-hidden">
+    <section className="relative bg-slate-900 h-dvh overflow-hidden">
       <AnimatePresence mode="wait">
         <motion.div
           key={currentIndex}
