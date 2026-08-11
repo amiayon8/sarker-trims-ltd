@@ -1,0 +1,13 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about-us/page": "/about-us",
+  "/board-of-directors/page": "/board-of-directors",
+  "/contact-us/page": "/contact-us",
+  "/favicon.ico/route": "/favicon.ico",
+  "/machineries/page": "/machineries",
+  "/our-policy/page": "/our-policy",
+  "/our-service/page": "/our-service",
+  "/page": "/",
+  "/product-range/page": "/product-range"
+}

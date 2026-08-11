@@ -1,0 +1,697 @@
+[00:00:04.537] Server  LOG     ✓ Ready in 3.6s
+[00:01:17.313] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/machineries" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         className="light"
+-                         style={{color-scheme:"light"}}
+                        >
+                  ...
+
+[00:04:23.548] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/machineries" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         className="light"
+-                         style={{color-scheme:"light"}}
+                        >
+                  ...
+
+[00:04:49.162] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. +8801xxxxxxxxx
+[00:04:49.162] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. +8801xxxxxxxxx
+[00:26:18.486] Server  LOG     ✓ Compiled in 629ms
+[00:27:14.681] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         className="dark"
+-                         style={{color-scheme:"dark"}}
+                        >
+                  ...
+
+[00:28:01.133] Server  LOG     ✓ Compiled in 101ms
+[00:28:14.564] Server  LOG     ✓ Compiled in 163ms
+[00:28:45.139] Server  LOG     ✓ Compiled in 139ms
+[00:28:53.795] Server  LOG     ✓ Compiled in 59ms
+[00:29:00.366] Server  LOG     ✓ Compiled in 69ms
+[00:29:05.028] Server  LOG     ✓ Compiled in 76ms
+[00:29:20.764] Server  LOG     ✓ Compiled in 109ms
+[00:29:27.215] Server  LOG     ✓ Compiled in 90ms
+[00:31:14.947] Server  LOG     ✓ Compiled in 52ms
+[00:32:36.446] Server  LOG     ✓ Compiled in 98ms
+[00:32:48.376] Server  LOG     ✓ Compiled in 116ms
+[00:33:29.377] Server  LOG     ✓ Compiled in 105ms
+[00:35:51.257] Browser WARN    Image with src "/media/products/draw-cord/p2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:51.257] Browser WARN    Image with src "/media/products/draw-cord/p1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:51.257] Browser WARN    Image with src "/media/products/draw-cord/p5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:51.257] Browser WARN    Image with src "/media/products/draw-cord/p3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:51.257] Browser WARN    Image with src "/media/products/draw-cord/p6.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:51.257] Browser WARN    Image with src "/media/products/draw-cord/p4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:51.257] Browser WARN    Image with src "/media/products/elastic/p1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:51.257] Browser WARN    Image with src "/media/products/draw-cord/p7.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:51.257] Browser WARN    Image with src "/media/products/elastic/p2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:51.257] Browser WARN    Image with src "/media/products/elastic/p4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:51.257] Browser WARN    Image with src "/media/products/elastic/p3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:54.798] Browser WARN    Image with src "/media/products/elastic/p5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:54.798] Browser WARN    Image with src "/media/products/elastic/p8.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:54.798] Browser WARN    Image with src "/media/products/elastic/p6.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:54.798] Browser WARN    Image with src "/media/products/elastic/p7.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:54.798] Browser WARN    Image with src "/media/products/jacquard-elastic/p2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:54.798] Browser WARN    Image with src "/media/products/jacquard-elastic/p1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:54.798] Browser WARN    Image with src "/media/products/jacquard-elastic/p4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:54.798] Browser WARN    Image with src "/media/products/jacquard-elastic/p3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:54.798] Browser WARN    Image with src "/media/products/jacquard-elastic/p5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:54.798] Browser WARN    Image with src "/media/products/jacquard-elastic/p6.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:54.798] Browser WARN    Image with src "/media/products/jacquard-elastic/p7.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:54.798] Browser WARN    Image with src "/media/products/jacquard-elastic/p8.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:55.722] Browser WARN    Image with src "/media/products/twill-tape/p1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:55.722] Browser WARN    Image with src "/media/products/twill-tape/p2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:55.722] Browser WARN    Image with src "/media/products/twill-tape/p3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:56.389] Browser WARN    Image with src "/media/products/printed-woven-item/p2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:56.389] Browser WARN    Image with src "/media/products/printed-woven-item/p3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:56.389] Browser WARN    Image with src "/media/products/printed-woven-item/p1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:56.389] Browser WARN    Image with src "/media/products/printed-woven-item/p4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:56.389] Browser WARN    Image with src "/media/products/printed-woven-item/p5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:56.389] Browser WARN    Image with src "/media/products/printed-woven-item/p6.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:56.822] Browser WARN    Image with src "/media/products/carton-box/p3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:56.823] Browser WARN    Image with src "/media/products/carton-box/p1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:56.823] Browser WARN    Image with src "/media/products/carton-box/p2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:05.146] Browser WARN    Image with src "/media/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:36:05.473] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/product-r..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         className="light"
+-                         style={{color-scheme:"light"}}
+                        >
+                  ...
+
+[00:36:05.473] Browser WARN    Image with src "/media/products/jacquard-elastic/p1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:05.473] Browser WARN    Image with src "/media/products/jacquard-elastic/p2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:05.473] Browser WARN    Image with src "/media/products/jacquard-elastic/p3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:05.473] Browser WARN    Image with src "/media/products/jacquard-elastic/p4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:05.473] Browser WARN    Image with src "/media/products/jacquard-elastic/p5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:05.473] Browser WARN    Image with src "/media/products/jacquard-elastic/p6.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:05.473] Browser WARN    Image with src "/media/products/jacquard-elastic/p7.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:05.473] Browser WARN    Image with src "/media/products/jacquard-elastic/p8.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:05.473] Browser WARN    Image with src "/media/products/twill-tape/p1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:05.473] Browser WARN    Image with src "/media/products/twill-tape/p2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:05.473] Browser WARN    Image with src "/media/products/twill-tape/p3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:05.473] Browser WARN    Image with src "/media/products/printed-woven-item/p1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:05.473] Browser WARN    Image with src "/media/products/printed-woven-item/p2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:05.473] Browser WARN    Image with src "/media/products/printed-woven-item/p3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:05.473] Browser WARN    Image with src "/media/products/printed-woven-item/p4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:05.473] Browser WARN    Image with src "/media/products/printed-woven-item/p5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:05.473] Browser WARN    Image with src "/media/products/printed-woven-item/p6.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:05.473] Browser WARN    Image with src "/media/products/carton-box/p1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:05.473] Browser WARN    Image with src "/media/products/carton-box/p2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:05.473] Browser WARN    Image with src "/media/products/carton-box/p3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:05.473] Browser WARN    Image with src "/media/products/carton-box/p1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:36:05.804] Browser WARN    Image with src "/media/products/carton-box/p2.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:36:08.163] Browser WARN    Image with src "/media/products/elastic/p5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:08.163] Browser WARN    Image with src "/media/products/elastic/p6.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:08.163] Browser WARN    Image with src "/media/products/elastic/p7.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:08.163] Browser WARN    Image with src "/media/products/elastic/p8.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:09.160] Browser WARN    Image with src "/media/products/elastic/p1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:09.160] Browser WARN    Image with src "/media/products/elastic/p2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:09.160] Browser WARN    Image with src "/media/products/elastic/p3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:09.160] Browser WARN    Image with src "/media/products/elastic/p4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:09.160] Browser WARN    Image with src "/media/products/draw-cord/p5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:09.160] Browser WARN    Image with src "/media/products/draw-cord/p6.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:09.160] Browser WARN    Image with src "/media/products/draw-cord/p7.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:09.160] Browser WARN    Image with src "/media/products/draw-cord/p1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:09.160] Browser WARN    Image with src "/media/products/draw-cord/p2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:09.160] Browser WARN    Image with src "/media/products/draw-cord/p3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:09.160] Browser WARN    Image with src "/media/products/draw-cord/p4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:44:34.111] Server  LOG     ✓ Compiled in 60ms
+[00:44:41.813] Server  LOG     ✓ Compiled in 58ms
+[00:44:42.290] Browser ERROR   uncaughtError: Error: Image with src "/media/logo.png" has both "width" and "fill" properties. Only one should be used.
+[00:44:57.548] Server  ERROR   ⨯ Error: Image with src "/media/logo.png" has both "width" and "fill" properties. Only one should be used.
+[00:44:59.127] Browser ERROR   uncaughtError: Error: Image with src "/media/logo.png" has both "width" and "fill" properties. Only one should be used.
+[00:45:20.684] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:45:20.685] Server  LOG     ✓ Compiled in 73ms
+[00:45:24.278] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/product-r..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         className="light"
+-                         style={{color-scheme:"light"}}
+                        >
+                  ...
+
+[00:45:24.278] Browser WARN    Image with src "/media/products/draw-cord/p1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/draw-cord/p2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/draw-cord/p3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/draw-cord/p4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/draw-cord/p5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/draw-cord/p6.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/draw-cord/p7.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/elastic/p1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/elastic/p2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/elastic/p3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/elastic/p4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/elastic/p5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/elastic/p6.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/elastic/p7.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/elastic/p8.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/jacquard-elastic/p1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/jacquard-elastic/p2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/jacquard-elastic/p3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/jacquard-elastic/p4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/jacquard-elastic/p5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/jacquard-elastic/p6.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/jacquard-elastic/p7.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/jacquard-elastic/p8.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/twill-tape/p1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/twill-tape/p2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/twill-tape/p3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/printed-woven-item/p1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/printed-woven-item/p2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/printed-woven-item/p3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/printed-woven-item/p4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/printed-woven-item/p5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/printed-woven-item/p6.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/carton-box/p1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/carton-box/p2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:24.279] Browser WARN    Image with src "/media/products/carton-box/p3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:57.427] Browser WARN    Image with src "/media/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:45:58.027] Browser ERROR   ./components/Footer.tsx:107:5
+Parsing ecmascript source code failed
+  105 |       </div >
+  106 |     </div >
+> 107 |     </footer >
+      |     ^
+  108 |   );
+  109 | };
+  110 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Footer.tsx
+    ./app/layout.tsx
+[00:45:58.027] Browser ERROR   ./components/Footer.tsx:107:6
+Parsing ecmascript source code failed
+  105 |       </div >
+  106 |     </div >
+> 107 |     </footer >
+      |      ^^^^^^^^^
+  108 |   );
+  109 | };
+  110 |
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/Footer.tsx
+    ./app/layout.tsx
+[00:46:41.270] Browser ERROR   ./components/Footer.tsx:107:5
+Parsing ecmascript source code failed
+  105 |       </div>
+  106 |     </div>
+> 107 |     </footer >
+      |     ^
+  108 |   );
+  109 | };
+  110 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Footer.tsx
+    ./app/layout.tsx
+[00:46:41.270] Browser ERROR   ./components/Footer.tsx:107:6
+Parsing ecmascript source code failed
+  105 |       </div>
+  106 |     </div>
+> 107 |     </footer >
+      |      ^^^^^^^^^
+  108 |   );
+  109 | };
+  110 |
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/Footer.tsx
+    ./app/layout.tsx
+[00:47:05.016] Server  LOG     ✓ Compiled in 315ms
+[00:49:16.917] Browser WARN    Image with src "/media/factory-visit/f3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:16.917] Browser WARN    Image with src "/media/factory-visit/f1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:16.917] Browser WARN    Image with src "/media/factory-visit/f2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:16.917] Browser WARN    Image with src "/media/factory-visit/f5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:16.917] Browser WARN    Image with src "/media/factory-visit/f4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:16.917] Browser WARN    Image with src "/media/factory.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:16.917] Browser WARN    Image with src "/media/factory.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:49:16.917] Browser WARN    Image with src "/media/factory-visit/f6.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:30.993] Browser WARN    Image with src "/media/directors/anonto.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:30.994] Browser WARN    Image with src "/media/directors/prohlad.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:30.994] Browser WARN    Image with src "/media/directors/nitya.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:30.994] Browser WARN    Image with src "/media/directors/rekha.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:39.800] Browser WARN    Image with src "/media/machineries/needle-loom/5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:39.800] Browser WARN    Image with src "/media/machineries/needle-loom/4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:39.800] Browser WARN    Image with src "/media/machineries/needle-loom/1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:39.800] Browser WARN    Image with src "/media/machineries/needle-loom/2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:39.800] Browser WARN    Image with src "/media/machineries/crochet-elastic/1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:39.800] Browser WARN    Image with src "/media/machineries/needle-loom/3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:39.800] Browser WARN    Image with src "/media/machineries/crochet-elastic/2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:39.800] Browser WARN    Image with src "/media/machineries/crochet-elastic/3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:39.800] Browser WARN    Image with src "/media/machineries/crochet-elastic/4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:39.800] Browser WARN    Image with src "/media/machineries/crochet-elastic/5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:39.800] Browser WARN    Image with src "/media/machineries/jacquard-elastic/4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:39.800] Browser WARN    Image with src "/media/machineries/crochet-elastic/6.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:39.800] Browser WARN    Image with src "/media/machineries/jacquard-elastic/3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:39.800] Browser WARN    Image with src "/media/machineries/jacquard-elastic/1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:39.800] Browser WARN    Image with src "/media/machineries/jacquard-elastic/2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:39.800] Browser WARN    Image with src "/media/machineries/woven-label/1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:39.800] Browser WARN    Image with src "/media/machineries/woven-label/2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:39.800] Browser WARN    Image with src "/media/machineries/woven-label/3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:39.800] Browser WARN    Image with src "/media/machineries/woven-label/4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:40.062] Browser WARN    Image with src "/media/machineries/printed-label/2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:40.062] Browser WARN    Image with src "/media/machineries/printed-label/1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:40.283] Browser WARN    Image with src "/media/machineries/poly-machine/1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:40.283] Browser WARN    Image with src "/media/machineries/poly-machine/2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:41.394] Browser WARN    Image with src "/media/machineries/packaging/2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:41.394] Browser WARN    Image with src "/media/machineries/packaging/1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:41.394] Browser WARN    Image with src "/media/machineries/printing-die-cutting/3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:41.394] Browser WARN    Image with src "/media/machineries/printing-die-cutting/1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:41.394] Browser WARN    Image with src "/media/machineries/printing-die-cutting/2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:41.394] Browser WARN    Image with src "/media/machineries/printing-die-cutting/4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:43.156] Browser WARN    Image with src "/media/services2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:43.156] Browser WARN    Image with src "/media/services2.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:49:43.156] Browser WARN    Image with src "/media/services1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:43.156] Browser WARN    Image with src "/media/services1.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:49:43.156] Browser WARN    Image with src "/media/services3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:49:43.156] Browser WARN    Image with src "/media/services3.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:50:14.233] Browser WARN    Image with src "/media/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:50:14.234] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/our-service" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         className="light"
+-                         style={{color-scheme:"light"}}
+                        >
+                  ...
+
+[00:50:14.234] Browser WARN    Image with src "/media/services1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:50:14.234] Browser WARN    Image with src "/media/services1.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:50:14.234] Browser WARN    Image with src "/media/services2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:50:14.234] Browser WARN    Image with src "/media/services2.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:50:14.234] Browser WARN    Image with src "/media/services3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:50:14.234] Browser WARN    Image with src "/media/services3.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:50:30.344] Browser WARN    Image with src "/media/policy2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:50:30.344] Browser WARN    Image with src "/media/policy2.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:50:30.344] Browser WARN    Image with src "/media/policy3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:50:30.344] Browser WARN    Image with src "/media/policy3.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:50:30.344] Browser WARN    Image with src "/media/policy1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:50:30.344] Browser WARN    Image with src "/media/policy1.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:50:50.223] Server  LOG     ✓ Compiled in 99ms
+[00:51:19.909] Server  LOG     ✓ Compiled in 65ms
+[00:51:32.809] Browser WARN    Image with src "/media/machineries/needle-loom/1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:32.809] Browser WARN    Image with src "/media/machineries/needle-loom/2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:32.809] Browser WARN    Image with src "/media/machineries/needle-loom/3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:32.809] Browser WARN    Image with src "/media/machineries/needle-loom/4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:32.809] Browser WARN    Image with src "/media/machineries/needle-loom/5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:32.809] Browser WARN    Image with src "/media/machineries/crochet-elastic/1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:32.809] Browser WARN    Image with src "/media/machineries/crochet-elastic/2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:32.809] Browser WARN    Image with src "/media/machineries/crochet-elastic/3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:32.809] Browser WARN    Image with src "/media/machineries/crochet-elastic/4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:32.809] Browser WARN    Image with src "/media/machineries/crochet-elastic/5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:32.809] Browser WARN    Image with src "/media/machineries/crochet-elastic/6.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:32.809] Browser WARN    Image with src "/media/machineries/jacquard-elastic/1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:32.809] Browser WARN    Image with src "/media/machineries/jacquard-elastic/2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:32.809] Browser WARN    Image with src "/media/machineries/jacquard-elastic/3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:32.809] Browser WARN    Image with src "/media/machineries/jacquard-elastic/4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:32.809] Browser WARN    Image with src "/media/machineries/woven-label/1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:32.809] Browser WARN    Image with src "/media/machineries/woven-label/2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:32.809] Browser WARN    Image with src "/media/machineries/woven-label/3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:32.809] Browser WARN    Image with src "/media/machineries/woven-label/4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:33.487] Browser WARN    Image with src "/media/machineries/printed-label/1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:33.487] Browser WARN    Image with src "/media/machineries/printed-label/2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:33.606] Browser WARN    Image with src "/media/machineries/poly-machine/1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:33.607] Browser WARN    Image with src "/media/machineries/poly-machine/2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:33.852] Browser WARN    Image with src "/media/machineries/packaging/1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:33.852] Browser WARN    Image with src "/media/machineries/packaging/2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:34.040] Browser WARN    Image with src "/media/machineries/printing-die-cutting/1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:34.040] Browser WARN    Image with src "/media/machineries/printing-die-cutting/2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:34.040] Browser WARN    Image with src "/media/machineries/printing-die-cutting/3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:34.040] Browser WARN    Image with src "/media/machineries/printing-die-cutting/4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:35.654] Browser WARN    Image with src "/media/products/draw-cord/p1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:35.654] Browser WARN    Image with src "/media/products/draw-cord/p2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:35.654] Browser WARN    Image with src "/media/products/draw-cord/p3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:35.654] Browser WARN    Image with src "/media/products/draw-cord/p4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:35.654] Browser WARN    Image with src "/media/products/draw-cord/p5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:35.654] Browser WARN    Image with src "/media/products/draw-cord/p6.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:35.654] Browser WARN    Image with src "/media/products/draw-cord/p7.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:35.655] Browser WARN    Image with src "/media/products/elastic/p1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:35.655] Browser WARN    Image with src "/media/products/elastic/p2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:35.655] Browser WARN    Image with src "/media/products/elastic/p3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:35.655] Browser WARN    Image with src "/media/products/elastic/p4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:37.357] Browser WARN    Image with src "/media/directors/rekha.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:37.357] Browser WARN    Image with src "/media/directors/nitya.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:37.357] Browser WARN    Image with src "/media/directors/anonto.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:37.357] Browser WARN    Image with src "/media/directors/prohlad.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:41.376] Browser WARN    Image with src "/media/factory.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:41.376] Browser WARN    Image with src "/media/factory.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:51:41.376] Browser WARN    Image with src "/media/factory-visit/f1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:41.376] Browser WARN    Image with src "/media/factory-visit/f2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:41.376] Browser WARN    Image with src "/media/factory-visit/f3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:41.376] Browser WARN    Image with src "/media/factory-visit/f4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:41.376] Browser WARN    Image with src "/media/factory-visit/f5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:51:41.376] Browser WARN    Image with src "/media/factory-visit/f6.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:52:00.623] Server  LOG     ✓ Compiled in 50ms
+[00:52:01.273] Browser ERROR   The tag <%s> is unrecognized in this browser. If you meant to render a React component, start its name with an uppercase letter. imgll
+[00:52:02.953] Server  LOG     ✓ Compiled in 56ms
+[00:52:12.538] Browser WARN    Image with src "/media/company2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:52:12.538] Browser WARN    Image with src "/media/company2.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:52:12.538] Browser WARN    Image with src "/media/company2.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:52:12.538] Browser WARN    Image with src "/media/company1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:52:12.538] Browser WARN    Image with src "/media/company1.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:52:12.538] Browser WARN    Image with src "/media/company1.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:52:12.538] Browser WARN    Image with src "/media/company3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:52:12.538] Browser WARN    Image with src "/media/company3.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:52:12.538] Browser WARN    Image with src "/media/company3.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:52:12.538] Browser WARN    Image with src "/media/company4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:52:12.538] Browser WARN    Image with src "/media/company4.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:52:12.538] Browser WARN    Image with src "/media/company4.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:52:14.763] Browser WARN    Image with src "/media/products3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:52:14.763] Browser WARN    Image with src "/media/products3.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:52:14.763] Browser WARN    Image with src "/media/products1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:52:14.763] Browser WARN    Image with src "/media/products1.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:52:14.763] Browser WARN    Image with src "/media/products2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:52:14.763] Browser WARN    Image with src "/media/products2.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:52:14.763] Browser WARN    Image with src "/media/products4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:52:14.763] Browser WARN    Image with src "/media/products4.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:52:37.521] Server  LOG     ✓ Compiled in 74ms
+[00:52:55.206] Server  LOG     ✓ Compiled in 72ms
+[00:53:28.105] Server  LOG     ✓ Compiled in 160ms
+[00:53:35.335] Browser WARN    Image with src "/media/products/elastic/p6.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:35.335] Browser WARN    Image with src "/media/products/elastic/p5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:35.335] Browser WARN    Image with src "/media/products/elastic/p7.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:35.335] Browser WARN    Image with src "/media/products/elastic/p8.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:35.453] Browser WARN    Image with src "/media/products/jacquard-elastic/p1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:35.453] Browser WARN    Image with src "/media/products/jacquard-elastic/p2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:35.453] Browser WARN    Image with src "/media/products/jacquard-elastic/p3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:35.453] Browser WARN    Image with src "/media/products/jacquard-elastic/p4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:35.872] Browser WARN    Image with src "/media/products/jacquard-elastic/p5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:35.872] Browser WARN    Image with src "/media/products/jacquard-elastic/p6.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:35.873] Browser WARN    Image with src "/media/products/jacquard-elastic/p7.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:35.873] Browser WARN    Image with src "/media/products/jacquard-elastic/p8.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:35.873] Browser WARN    Image with src "/media/products/twill-tape/p1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:35.873] Browser WARN    Image with src "/media/products/twill-tape/p2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:35.873] Browser WARN    Image with src "/media/products/twill-tape/p3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:36.725] Browser WARN    Image with src "/media/products/printed-woven-item/p1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:36.725] Browser WARN    Image with src "/media/products/printed-woven-item/p2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:36.725] Browser WARN    Image with src "/media/products/printed-woven-item/p3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:36.725] Browser WARN    Image with src "/media/products/printed-woven-item/p4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:36.725] Browser WARN    Image with src "/media/products/printed-woven-item/p5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:36.725] Browser WARN    Image with src "/media/products/printed-woven-item/p6.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:37.003] Browser WARN    Image with src "/media/products/carton-box/p1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:37.004] Browser WARN    Image with src "/media/products/carton-box/p2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:37.004] Browser WARN    Image with src "/media/products/carton-box/p3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:51.935] Server  LOG     ✓ Compiled in 91ms
+[00:54:12.520] Server  LOG     ✓ Compiled in 53ms
+[00:54:34.919] Server  LOG     ✓ Compiled in 51ms
+[00:54:58.102] Server  LOG     ✓ Compiled in 59ms
+[00:55:02.634] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. +8801xxxxxxxxx
+[00:55:02.634] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. +8801xxxxxxxxx
+[00:55:02.634] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. +8801xxxxxxxxx
+[00:55:02.634] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. +8801xxxxxxxxx
+[00:55:02.634] Browser ERROR   uncaughtError: Error: Invalid src prop (https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=1920) on `next/image`, hostname "images.unsplash.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:55:46.786] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:55:46.800] Server  LOG     ✓ Compiled in 61ms
+[00:55:47.280] Server  ERROR   ⨯ Error: Invalid src prop (https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=1920) on `next/image`, hostname "images.unsplash.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:55:47.299] Browser ERROR   uncaughtError: Error: Invalid src prop (https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=1920) on `next/image`, hostname "images.unsplash.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:55:48.521] Browser ERROR   uncaughtError: Error: Invalid src prop (https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=1920) on `next/image`, hostname "images.unsplash.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:56:21.203] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:56:21.217] Server  LOG     ✓ Compiled in 140ms
+[00:56:22.863] Browser WARN    Image with src "/media/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:56:22.863] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/contact-us" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         className="light"
+-                         style={{color-scheme:"light"}}
+                        >
+                  ...
+
+[00:56:22.863] Browser WARN    Image with src "/media/contact.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:56:22.863] Browser WARN    Image with src "/media/contact.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:56:23.016] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/media/map.png" "received" null
+[00:56:45.799] Server  LOG     ✓ Compiled in 53ms
+[00:56:59.551] Server  LOG     ✓ Compiled in 271ms
+[00:56:59.743] Browser ERROR   uncaughtError: TypeError: Failed to construct 'Image': Please use the 'new' operator, this DOM object constructor cannot be called as a function.
+[00:58:36.744] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:58:36.746] Server  LOG     ✓ Compiled in 101ms
+[00:58:38.522] Browser WARN    Image with src "/media/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:58:38.522] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/contact-us" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         className="dark"
+-                         style={{color-scheme:"dark"}}
+                        >
+                  ...
+
+[00:58:57.214] Server  LOG     ✓ Compiled in 366ms
+[00:59:31.506] Server  LOG     ✓ Compiled in 207ms
+[00:59:44.625] Server  LOG     ✓ Compiled in 155ms
