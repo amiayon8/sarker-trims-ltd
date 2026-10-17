@@ -185,7 +185,7 @@ export function GalleryView({ currentCategory = "all" }: { currentCategory?: str
                   Looking for something specific?
                 </h2>
                 <p className="text-base text-[#c9d8d2] leading-7 max-w-xl mt-4">
-                  Send a reference image, artwork or sample specification. Tuba
+                  Send a reference image, artwork or sample specification. Sarker
                   Trims can review the requirement and develop a
                   production-ready version around your material, size, branding
                   and finish.

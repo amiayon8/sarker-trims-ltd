@@ -32,7 +32,7 @@ export async function generateMetadata({
   const { category } = await params;
   const formattedCategory = category.replace(/_/g, " ");
   return {
-    title: `${formattedCategory.toUpperCase()} | Product Gallery | Tuba Trims`,
+    title: `${formattedCategory.toUpperCase()} | Product Gallery | Sarker Trims`,
     description: `Explore custom ${formattedCategory} and garment accessories manufactured in Dhaka, Bangladesh.`,
   };
 }

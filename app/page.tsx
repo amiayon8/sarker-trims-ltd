@@ -173,13 +173,13 @@ export default function HomePage() {
             </h1>
             <p className="mt-6 max-w-xl leading-relaxed text-muted-foreground">
               From custom belts and woven accessories to buttons, patches and
-              branding hardware, Tuba Trims develops and manufactures
+              branding hardware, Sarker Trims develops and manufactures
               production-ready components for garment manufacturers and fashion
               brands.
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-3 justify-center sm:justify-start">
               <a
-                href="https://wa.me/8801918920092?text=Hello%20Tuba%20Trims%20%E2%80%94%20I%20want%20to%20develop%20..."
+                href="https://wa.me/8801918920092?text=Hello%20Sarker%20Trims%20%E2%80%94%20I%20want%20to%20develop%20..."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-primary/90 px-7 py-3.5 text-sm font-semibold text-white shadow-[var(--shadow-warm)] transition-all hover:-translate-y-0.5 hover:bg-primary"
@@ -197,7 +197,7 @@ export default function HomePage() {
                 WhatsApp Artwork
               </a>
               <a
-                href="/Tuba-Trims-Company-Profile-2026.pdf"
+                href="/Sarker-Trims-Company-Profile-2026.pdf"
                 download
                 className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-7 py-3.5 text-sm font-semibold text-foreground transition-colors hover:border-primary/40 hover:bg-secondary/10"
               >
@@ -255,7 +255,7 @@ export default function HomePage() {
                 >
                   <div className="flex min-h-0 flex-1 items-center justify-center overflow-hidden px-4 pt-5 pb-2">
                     <Image
-                      alt={`${category.title} — Tuba Trims`}
+                      alt={`${category.title} — Sarker Trims`}
                       width={300}
                       height={300}
                       src={category.image}
@@ -303,7 +303,7 @@ export default function HomePage() {
             <div className="eyebrow">Custom manufacturing</div>
             <h2>Your design. Our production.</h2>
             <p className="text-muted-foreground">
-              Send a reference sample, drawing, artwork or specification. Tuba
+              Send a reference sample, drawing, artwork or specification. Sarker
               Trims can develop material, dimensions, color, branding, hardware
               and finishing around your requirements.
             </p>
@@ -375,9 +375,9 @@ export default function HomePage() {
             </div>
             <div className="relative min-h-96 rounded-[28px] overflow-hidden bg-[#d5d4ca]">
               <Image
-                alt="Tuba Trims garment trims production floor — Dhaka, Bangladesh"
+                alt="Sarker Trims garment trims production floor — Dhaka, Bangladesh"
                 fill
-                src="/images/tubatrims_factory_image_6.png"
+                src="/images/sarkertrims_factory_image_6.png"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -447,7 +447,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="section-head grid grid-cols-1 md:grid-cols-[1.1fr_0.9fr] gap-5 md:gap-16 items-end mb-12">
             <div>
-              <div className="eyebrow">Why Tuba Trims</div>
+              <div className="eyebrow">Why Sarker Trims</div>
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight mb-6">
                 A manufacturing partner, not just a supplier.
               </h2>
@@ -560,7 +560,7 @@ export default function HomePage() {
               </p>
               <div className="mt-4 flex gap-4 flex-wrap text-xs text-[#bfd1ca] font-[600]">
                 <span>
-                  <a href="mailto:info@tubatrims.com">info@tubatrims.com</a>
+                  <a href="mailto:info@sarkertrims.com">info@sarkertrims.com</a>
                 </span>
                 <span>+880 1302-250001</span>
                 <span>Dhaka, Bangladesh</span>

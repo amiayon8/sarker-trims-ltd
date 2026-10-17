@@ -3,9 +3,9 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Tuba Trims | Garment Trims Manufacturer in Dhaka, Bangladesh",
+  title: "About Sarker Trims | Garment Trims Manufacturer in Dhaka, Bangladesh",
   description:
-    "Learn about Tuba Trims, established in 2015 in Dhaka. B2B manufacturer of belts, patches, badges, zipper pullers, and custom garment accessories.",
+    "Learn about Sarker Trims, established in 2015 in Dhaka. B2B manufacturer of belts, patches, badges, zipper pullers, and custom garment accessories.",
 };
 
 export default function AboutPage() {
@@ -52,13 +52,13 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-16 md:pt-20 grid grid-cols-1 items-center gap-8 pb-16 sm:grid-cols-[1.2fr_0.8fr] md:gap-16">
           <div>
             <div className="eyebrow text-[12px] font-extrabold uppercase tracking-[0.18em] text-[#b56b3d]">
-              About Tuba Trims
+              About Sarker Trims
             </div>
             <h1 className="tracking-[-0.025em] font-bold mb-6 mt-[14px] text-[clamp(46px,6vw,78px)] leading-[1.02] max-[580px]:text-[44px]">
               Garment trims manufacturer in Bangladesh you can rely on.
             </h1>
             <p className="max-w-[720px] text-[19px] text-[#4f5c56]">
-              Tuba Trims manufactures belts, patches, badges, zipper pullers,
+              Sarker Trims manufactures belts, patches, badges, zipper pullers,
               buttons and custom garment accessories in Dhaka. Founded in 2015 by
               Golam Kibria Chowdhury and led by Managing Director Tareq
               Chowdhury, we supply garment factories and buyers across Bangladesh
@@ -67,14 +67,14 @@ export default function AboutPage() {
           </div>
           <aside
             id="profile"
-            aria-label="Tuba Trims company at a glance"
+            aria-label="Sarker Trims company at a glance"
             className="relative overflow-hidden rounded-[30px] bg-[#153a30] p-[34px] text-white shadow-[0_18px_55px_rgba(24,58,44,0.1)] after:absolute after:-right-[70px] after:-top-[60px] after:h-[180px] after:w-[180px] after:rounded-full after:border after:border-white/[0.12] after:content-['']"
           >
             <div className="eyebrow text-[12px] font-extrabold uppercase tracking-[0.18em] text-[#e0ae91]">
               Company at a glance
             </div>
             <h2 className="tracking-[-0.025em] font-bold mb-2 text-[27px]">
-              Tuba Trims
+              Sarker Trims
             </h2>
             <p className="mb-[26px] text-[14px] text-[#d8e2dd]">
               B2B manufacturer of garment trims, accessories and leather goods
@@ -167,7 +167,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-[0.95fr_1.05fr] gap-20 max-[900px]:grid-cols-1">
             <div>
               <p className="mb-[1em] text-[18px] text-[#505c56]">
-                Tuba Trims was founded in 2015 by Golam Kibria Chowdhury, with his
+                Sarker Trims was founded in 2015 by Golam Kibria Chowdhury, with his
                 son Tareq Chowdhury leading the business as Managing Director.
                 Their goal was clear: give garment factories in Bangladesh a
                 dependable local source for trims and accessories that match the
@@ -196,10 +196,10 @@ export default function AboutPage() {
                   2015
                 </div>
                 <h3 className="tracking-[-0.025em] font-bold mb-2 mt-[6px] text-[25px]">
-                  Tuba Trims begins
+                  Sarker Trims begins
                 </h3>
                 <p className="m-0 text-[14px] text-[#6b746f]">
-                  Golam Kibria Chowdhury establishes Tuba Trims at Purana
+                  Golam Kibria Chowdhury establishes Sarker Trims at Purana
                   Mugoltuli, Dhaka, with Tareq Chowdhury as Managing Director, to
                   manufacture belts and accessories for garment factories.
                 </p>
@@ -257,7 +257,7 @@ export default function AboutPage() {
               A family-run factory with a 25-strong production team.
             </h2>
             <p className="mb-[1em] text-[#59645f]">
-              Tuba Trims is a family-owned business led by its founder and
+              Sarker Trims is a family-owned business led by its founder and
               managing director. Both are involved in the business every day,
               which means decisions on samples, materials and delivery dates are
               made quickly and by people who understand the work.
@@ -291,7 +291,7 @@ export default function AboutPage() {
                   Golam Kibria Chowdhury
                 </h3>
                 <p className="m-0 text-[13px] text-[#6b746f]">
-                  Established Tuba Trims in 2015 and set the hands-on,
+                  Established Sarker Trims in 2015 and set the hands-on,
                   quality-first standard the factory still works to. Continues to
                   guide the company&apos;s long-term direction.
                 </p>
@@ -404,7 +404,7 @@ export default function AboutPage() {
               Company credentials
             </div>
             <h2 className="tracking-[-0.025em] font-bold mb-[0.83em] text-[50px] leading-[1.05]">
-              Tuba Trims at a glance for sourcing teams.
+              Sarker Trims at a glance for sourcing teams.
             </h2>
             <p className="mb-[1em]">
               The essentials a merchandiser or sourcing manager needs when adding
@@ -414,8 +414,8 @@ export default function AboutPage() {
             <p className="mb-[1em] mt-4 text-[13px] text-[#66706b]">
               Need company documents, references or a factory visit before
               placing an order? Email{" "}
-              <a href="mailto:info@tubatrims.com" className="underline">
-                info@tubatrims.com
+              <a href="mailto:info@sarkertrims.com" className="underline">
+                info@sarkertrims.com
               </a>{" "}
               and we will respond within one working day.
             </p>

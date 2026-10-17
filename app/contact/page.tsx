@@ -334,10 +334,10 @@ export default function ContactPage() {
                     <div>
                       <h4 className="font-semibold text-xs">Email</h4>
                       <a
-                        href="mailto:info@tubatrims.com"
+                        href="mailto:info@sarkertrims.com"
                         className="mt-1 block break-all text-xs text-muted-foreground hover:text-primary"
                       >
-                        info@tubatrims.com
+                        info@sarkertrims.com
                       </a>
                     </div>
                   </div>
@@ -369,7 +369,7 @@ export default function ContactPage() {
           </section>
 
           <a
-            href="/Tuba-Trims-Company-Profile-2026.pdf"
+            href="/Sarker-Trims-Company-Profile-2026.pdf"
             download
             className="flex w-full items-center gap-3 rounded-lg border border-primary bg-card px-5 py-4 text-left transition-colors hover:bg-muted"
           >
@@ -386,12 +386,12 @@ export default function ContactPage() {
 
           <div className="h-64 overflow-hidden rounded-lg border bg-muted">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.871694719142!2d90.40802017469358!3d23.71627549008674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9e9c3c15d67%3A0x3a55894a4e79b100!2sTuba%20Trims!5e0!3m2!1sen!2sbd!4v1790424849913!5m2!1sen!2sbd"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.871694719142!2d90.40802017469358!3d23.71627549008674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9e9c3c15d67%3A0x3a55894a4e79b100!2sSarker%20Trims!5e0!3m2!1sen!2sbd!4v1790424849913!5m2!1sen!2sbd"
               className="h-full w-full border-0"
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Tuba Trims Factory Location"
+              title="Sarker Trims Factory Location"
             />
           </div>
         </aside>

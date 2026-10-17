@@ -47,8 +47,8 @@ export default function FAQPage() {
             Contact page
           </Link>{" "}
           or email{" "}
-          <a href="mailto:info@tubatrims.com" className="text-primary underline">
-            info@tubatrims.com
+          <a href="mailto:info@sarkertrims.com" className="text-primary underline">
+            info@sarkertrims.com
           </a>{" "}
           with your product details, quantity and any custom specifications. Our
           team will reply with construction options and pricing within one
@@ -91,7 +91,7 @@ export default function FAQPage() {
             <p className="text-lg md:text-xl max-w-3xl leading-relaxed">
               Answers about custom garment trims manufacturing, materials, lead
               times, export shipping and how to request a sample or quote from
-              Tuba Trims.
+              Sarker Trims.
             </p>
           </div>
         </div>

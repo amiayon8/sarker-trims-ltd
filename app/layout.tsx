@@ -12,9 +12,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Garment Trims Manufacturer in Bangladesh | Belts, Patches & Pullers | Tuba Trims",
+  title: "Garment Trims Manufacturer in Bangladesh | Belts, Patches & Pullers | Sarker Trims",
   description:
-    "Tuba Trims manufactures custom garment belts, patches, badges, zipper pullers, tags and buttons in Dhaka. Sample-to-bulk production for factories and brands. Request a sample.",
+    "Sarker Trims manufactures custom garment belts, patches, badges, zipper pullers, tags and buttons in Dhaka. Sample-to-bulk production for factories and brands. Request a sample.",
   keywords: [
     "garment trims manufacturer",
     "garment trims manufacturer Bangladesh",

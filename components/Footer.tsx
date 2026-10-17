@@ -10,11 +10,11 @@ export function Footer() {
           <div className="space-y-4">
             <Link
               href="/"
-              className="inline-block bg-white/95 rounded-xl p-2.5 shadow-sm"
+              className="inline-block"
               aria-label="Homepage"
             >
               <Image
-                src="/media/logo.png"
+                src="/media/logo-white.png"
                 alt="Sarker Trims Logo"
                 width={200}
                 height={45}
@@ -26,7 +26,7 @@ export function Footer() {
             </p>
             <div className="flex gap-x-4 text-slate-400">
               <a
-                href="https://www.facebook.com/tubatrims"
+                href="https://www.facebook.com/sarkertrims"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition-colors duration-300 hover:text-white"
@@ -123,10 +123,10 @@ export function Footer() {
                 <div className="flex items-center space-x-2">
                   <Mail className="size-4 shrink-0" />
                   <a
-                    href="mailto:info@tubatrims.com"
+                    href="mailto:info@sarkertrims.com"
                     className="hover:text-white transition-colors"
                   >
-                    info@tubatrims.com
+                    info@sarkertrims.com
                   </a>
                 </div>
               </div>
@@ -135,7 +135,7 @@ export function Footer() {
         </div>
 
         <div className="mt-8 md:mt-12 border-t border-slate-800 py-6 text-center text-slate-400">
-          <p>© 2026 Tuba Trims. All rights reserved.</p>
+          <p>© 2026 Sarker Trims. All rights reserved.</p>
         </div>
       </div>
     </footer>
