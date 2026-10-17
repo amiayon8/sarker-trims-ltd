@@ -101,7 +101,7 @@ export function GalleryView({ currentCategory = "all" }: { currentCategory?: str
   return (
     <main className="py-16 md:py-24 min-h-screen pt-16 md:pt-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 space-y-4 md:space-y-6">
-        <div className="eyebrow text-[12px] font-extrabold uppercase tracking-[0.18em] text-[#b56b3d]">
+        <div className="eyebrow text-[12px] font-extrabold uppercase tracking-[0.18em] text-[#11137b]">
           Product Gallery
         </div>
         <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
@@ -152,7 +152,7 @@ export function GalleryView({ currentCategory = "all" }: { currentCategory?: str
                 </div>
                 <div className="p-6 flex flex-1 flex-col justify-between">
                   <div>
-                    <span className="inline-block text-[11px] font-bold uppercase tracking-wider text-[#b56b3d] mb-1.5">
+                    <span className="inline-block text-[11px] font-bold uppercase tracking-wider text-[#11137b] mb-1.5">
                       {item.category.replace(/-/g, " ")}
                     </span>
                     <h3 className="text-base font-semibold text-foreground leading-snug">

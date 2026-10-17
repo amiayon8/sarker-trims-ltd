@@ -50,7 +50,7 @@ export default function ContactPage() {
   return (
     <main className="py-16 md:py-24 pt-16 md:pt-20" id="contact">
       <header className="mb-12 container mx-auto px-4 sm:px-6 lg:px-8 space-y-4 md:space-y-6">
-        <div className="eyebrow text-[12px] font-extrabold uppercase tracking-[0.18em] text-[#b56b3d]">
+        <div className="eyebrow text-[12px] font-extrabold uppercase tracking-[0.18em] text-[#11137b]">
           Contact Us
         </div>
         <h1 className="text-4xl lg:text-6xl font-bold leading-tight">

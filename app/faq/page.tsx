@@ -72,10 +72,10 @@ export default function FAQPage() {
 
   return (
     <main>
-      <section className="py-16 md:py-24 pt-16 md:pt-20 relative overflow-hidden bg-gradient-to-r from-amber-900/10 via-orange-800/10 to-yellow-700/10">
+      <section className="py-16 md:py-24 pt-16 md:pt-20 relative overflow-hidden bg-gradient-to-r from-blue-900/10 via-indigo-950/10 to-slate-900/5">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-4 md:space-y-6">
-            <div className="eyebrow text-[12px] font-extrabold uppercase tracking-[0.18em] text-[#b56b3d]">
+            <div className="eyebrow text-[12px] font-extrabold uppercase tracking-[0.18em] text-[#11137b]">
               FAQ
             </div>
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight text-primary">

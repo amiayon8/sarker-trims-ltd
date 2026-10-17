@@ -237,7 +237,7 @@ export default function HomePage() {
           <div className="category-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {productCategories.map((category) => (
               <Link key={category.title} href={category.href}>
-                <article className="flex flex-col h-full rounded-3xl overflow-hidden bg-[#faf8f5] border border-muted hover:-translate-y-1 transition-all duration-300 group hover:shadow-lg">
+                <article className="flex flex-col h-full rounded-3xl overflow-hidden bg-white border border-muted hover:-translate-y-1 transition-all duration-300 group hover:shadow-lg">
                   <div className="aspect-4/3 relative overflow-hidden bg-slate-100">
                     <Image
                       alt={`${category.title} — Sarker Trims`}
@@ -301,7 +301,7 @@ export default function HomePage() {
               {materialChips.map((chip) => (
                 <span
                   key={chip}
-                  className="chip py-1.5 px-3 rounded-full bg-[#e6ece7] border border-[#d2ded7] text-[#305246] text-xs font-semibold"
+                  className="chip py-1.5 px-3 rounded-full bg-blue-50 border border-blue-200 text-[#11137b] text-xs font-semibold"
                 >
                   {chip}
                 </span>
@@ -361,7 +361,7 @@ export default function HomePage() {
                 </div>
               </div>
             </div>
-            <div className="relative min-h-96 rounded-[28px] overflow-hidden bg-[#d5d4ca]">
+            <div className="relative min-h-96 rounded-[28px] overflow-hidden bg-slate-200">
               <Image
                 alt="Sarker Trims modern weaving and production floor — Dhaka, Bangladesh"
                 fill
@@ -424,7 +424,7 @@ export default function HomePage() {
                   />
                 </div>
                 <div className="p-4">
-                  <span className="text-[11px] font-bold uppercase tracking-wider text-[#b56b3d] block mb-1">
+                  <span className="text-[11px] font-bold uppercase tracking-wider text-[#11137b] block mb-1">
                     {work.category}
                   </span>
                   <h3 className="text-sm font-semibold text-foreground">
@@ -451,8 +451,8 @@ export default function HomePage() {
             </p>
           </div>
           <div className="why-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-            <div className="border border-muted p-6 rounded-2xl bg-[#fffdfa]">
-              <div className="grid place-items-center size-12 rounded-xl bg-[#e5ede8] text-primary text-2xl font-extrabold mb-6">
+            <div className="border border-muted p-6 rounded-2xl bg-white shadow-sm">
+              <div className="grid place-items-center size-12 rounded-xl bg-blue-50 text-[#11137b] text-2xl font-extrabold mb-6">
                 ↗
               </div>
               <h3 className="text-base font-semibold mb-2 tracking-tight">
@@ -462,8 +462,8 @@ export default function HomePage() {
                 Counter-samples for draw cords, twill tapes, and elastics delivered within 24 hours.
               </p>
             </div>
-            <div className="border border-muted p-6 rounded-2xl bg-[#fffdfa]">
-              <div className="grid place-items-center size-12 rounded-xl bg-[#e5ede8] text-primary text-2xl font-extrabold mb-6">
+            <div className="border border-muted p-6 rounded-2xl bg-white shadow-sm">
+              <div className="grid place-items-center size-12 rounded-xl bg-blue-50 text-[#11137b] text-2xl font-extrabold mb-6">
                 ◎
               </div>
               <h3 className="text-base font-semibold mb-2 tracking-tight">
@@ -473,8 +473,8 @@ export default function HomePage() {
                 Approved elongation, yarn density, tensile strength, and color matching carried through full production.
               </p>
             </div>
-            <div className="border border-muted p-6 rounded-2xl bg-[#fffdfa]">
-              <div className="grid place-items-center size-12 rounded-xl bg-[#e5ede8] text-primary text-2xl font-extrabold mb-6">
+            <div className="border border-muted p-6 rounded-2xl bg-white shadow-sm">
+              <div className="grid place-items-center size-12 rounded-xl bg-blue-50 text-[#11137b] text-2xl font-extrabold mb-6">
                 ▦
               </div>
               <h3 className="text-base font-semibold mb-2 tracking-tight">
@@ -484,8 +484,8 @@ export default function HomePage() {
                 Source both narrow fabric trims and corrugated export shipping cartons from a single Dhaka supplier.
               </p>
             </div>
-            <div className="border border-muted p-6 rounded-2xl bg-[#fffdfa]">
-              <div className="grid place-items-center size-12 rounded-xl bg-[#e5ede8] text-primary text-2xl font-extrabold mb-6">
+            <div className="border border-muted p-6 rounded-2xl bg-white shadow-sm">
+              <div className="grid place-items-center size-12 rounded-xl bg-blue-50 text-[#11137b] text-2xl font-extrabold mb-6">
                 ✦
               </div>
               <h3 className="text-base font-semibold mb-2 tracking-tight">
