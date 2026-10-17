@@ -59,34 +59,34 @@ export default function HomePage() {
 
   const selectedWorks = [
     {
-      title: "Draw Cord with Custom Aglets",
+      title: "Hoodie Draw Cord with Matte Aglets",
       category: "Draw Cord",
-      image: "/media/products/featured/draw-cord.jpg",
+      image: "/media/products/selected/draw-cord.jpg",
     },
     {
-      title: "Knitted & Braided Plain Elastic",
+      title: "Multi-Needle Stitched Elastic Waistband",
       category: "Elastic",
-      image: "/media/products/featured/elastic.jpg",
+      image: "/media/products/selected/elastic.jpg",
     },
     {
-      title: "Athletic Jacquard Elastic Band",
+      title: "Engineered Relief Jacquard Sportswear Band",
       category: "Jacquard Elastic",
-      image: "/media/products/featured/jacquard-elastic.jpg",
+      image: "/media/products/selected/jacquard-elastic.jpg",
     },
     {
-      title: "Herringbone Twill Tape Ribbon",
+      title: "Inside Collar Herringbone Seam Tape",
       category: "Twill Tape",
-      image: "/media/products/featured/twill-tape.jpg",
+      image: "/media/products/selected/twill-tape.jpg",
     },
     {
-      title: "Woven Labels & Care Tags",
+      title: "High-Density Damask Woven Jacket Label",
       category: "Printed & Woven Item",
-      image: "/media/products/featured/printed-woven-item.jpg",
+      image: "/media/products/selected/printed-woven-item.jpg",
     },
     {
-      title: "Corrugated Export Master Carton",
+      title: "Bulk Packaged Export Corrugated Master Box",
       category: "Carton Box",
-      image: "/media/products/featured/carton-box.jpg",
+      image: "/media/products/selected/carton-box.jpg",
     },
   ];
 
@@ -155,7 +155,9 @@ export default function HomePage() {
         />
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-16 md:pt-20 grid grid-cols-1 pb-12 lg:grid-cols-[1.4fr_1fr] lg:pb-20">
           <div className="flex flex-col justify-center relative z-10">
-            <p className="eyebrow">Made in Dhaka · Garment Trims &amp; Packaging</p>
+            <p className="eyebrow">
+              Made in Dhaka · Garment Trims &amp; Packaging
+            </p>
             <h1 className="mt-6 text-balance text-[clamp(38px,4.8vw,62px)] leading-none font-bold tracking-[-0.055em]">
               Draw Cords, Elastics, Twill Tapes &amp; Packaging
               <span className="text-[var(--leather)]">
@@ -164,7 +166,10 @@ export default function HomePage() {
               </span>
             </h1>
             <p className="mt-6 max-w-xl leading-relaxed text-muted-foreground">
-              From draw cords and plain &amp; jacquard elastics to needle loom twill tapes, woven/printed labels, and corrugated export carton boxes — Sarker Trims delivers dependable quality and 1-day sampling for garment manufacturers.
+              From draw cords and plain &amp; jacquard elastics to needle loom
+              twill tapes, woven/printed labels, and corrugated export carton
+              boxes — Sarker Trims delivers dependable quality and 1-day
+              sampling for garment manufacturers.
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-3 justify-center sm:justify-start">
               <a
@@ -194,7 +199,7 @@ export default function HomePage() {
                 Download Company Profile PDF
               </a>
             </div>
-            <div className="mt-8 grid grid-cols-3 sm:grid-cols-4 items-center gap-6 border-t border-muted pt-6">
+            <div className="text-center mt-8 grid grid-cols-3 sm:grid-cols-4 items-center gap-6 border-t border-muted pt-6">
               <div className="text-[10px] sm:text-xs uppercase tracking-[0.15em] text-secondary">
                 <span>
                   1-Day
@@ -205,8 +210,7 @@ export default function HomePage() {
               <div className="text-[10px] sm:text-xs uppercase tracking-[0.15em] text-secondary">
                 <span>
                   Bulk In
-                  <br />
-                  3 Days
+                  <br />3 Days
                 </span>
               </div>
               <div className="text-[10px] sm:text-xs uppercase tracking-[0.15em] text-secondary">
@@ -231,7 +235,9 @@ export default function HomePage() {
               </h2>
             </div>
             <p className="text-muted-foreground">
-              Every production category is configured for speed, technical consistency, and compliance with buyer tech packs. Select a category to inspect gallery specifications.
+              Every production category is configured for speed, technical
+              consistency, and compliance with buyer tech packs. Select a
+              category to inspect gallery specifications.
             </p>
           </div>
           <div className="category-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -261,7 +267,9 @@ export default function HomePage() {
                     </div>
                     <div className="mt-4 pt-4 border-t border-slate-200/60 flex items-center justify-between text-xs font-semibold text-primary">
                       <span>View Gallery &amp; Specs</span>
-                      <span className="group-hover:translate-x-1 transition-transform">→</span>
+                      <span className="group-hover:translate-x-1 transition-transform">
+                        →
+                      </span>
                     </div>
                   </div>
                 </article>
@@ -293,9 +301,14 @@ export default function HomePage() {
           </div>
           <div className="split-copy">
             <div className="eyebrow">Custom manufacturing</div>
-            <h2 className="text-3xl md:text-4xl font-semibold mb-4">Your design brief. Our production line.</h2>
+            <h2 className="text-3xl md:text-4xl font-semibold mb-4">
+              Your design brief. Our production line.
+            </h2>
             <p className="text-muted-foreground leading-relaxed">
-              Send a tech pack, Pantone reference, sample cord, or carton dimension requirement. Sarker Trims develops exact yarn compositions, elongation tolerances, tipping, and printing in our factory.
+              Send a tech pack, Pantone reference, sample cord, or carton
+              dimension requirement. Sarker Trims develops exact yarn
+              compositions, elongation tolerances, tipping, and printing in our
+              factory.
             </p>
             <div className="material-chips flex gap-2 flex-wrap my-6">
               {materialChips.map((chip) => (
@@ -336,11 +349,16 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-[0.9fr_1.1fr] gap-10 items-stretch">
             <div className="cap-copy flex flex-col justify-center py-6 px-1 sm:pe-3 sm:pb-4 sm:pt-10 sm:ps-[18px]">
               <div className="eyebrow">Factory infrastructure</div>
-              <h2 id="manufacturing-heading" className="text-3xl md:text-4xl font-semibold mb-4">
+              <h2
+                id="manufacturing-heading"
+                className="text-3xl md:text-4xl font-semibold mb-4"
+              >
                 Engineered for rapid turnarounds and bulk consistency.
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                Operating needle looms, computerized jacquard weaving machines, high-speed cord braiders, tipping units, rotary label printers, and corrugated converting machinery under one roof in Dhaka.
+                Operating needle looms, computerized jacquard weaving machines,
+                high-speed cord braiders, tipping units, rotary label printers,
+                and corrugated converting machinery under one roof in Dhaka.
               </p>
               <div className="cap-stats grid grid-cols-2 sm:grid-cols-4 gap-4 mt-8">
                 <div className="cap-stat">
@@ -377,9 +395,12 @@ export default function HomePage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="process-head max-w-2xl mb-12">
             <div className="eyebrow">Workflow</div>
-            <h2 className="text-3xl md:text-4xl font-semibold mb-3">From tech pack to bulk delivery — in five steps</h2>
+            <h2 className="text-3xl md:text-4xl font-semibold mb-3">
+              From tech pack to bulk delivery — in five steps
+            </h2>
             <p className="text-muted-foreground">
-              A structured sample-to-bulk manufacturing process designed around the deadlines of apparel merchandising teams.
+              A structured sample-to-bulk manufacturing process designed around
+              the deadlines of apparel merchandising teams.
             </p>
           </div>
           <div className="timeline grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-x-3 gap-y-4 md:gap-y-8 md:border-t border-muted">
@@ -390,7 +411,9 @@ export default function HomePage() {
               >
                 <div className="num">{step.num}</div>
                 <h3 className="text-base font-semibold">{step.title}</h3>
-                <p className="text-xs text-muted-foreground mt-1">{step.desc}</p>
+                <p className="text-xs text-muted-foreground mt-1">
+                  {step.desc}
+                </p>
               </div>
             ))}
           </div>
@@ -402,10 +425,14 @@ export default function HomePage() {
           <div className="section-head grid grid-cols-1 gap-4 md:grid-cols-[1.1fr_0.9fr] md:gap-8 lg:gap-12 items-end mb-12">
             <div>
               <div className="eyebrow">Production showcase</div>
-              <h2 className="text-3xl md:text-4xl font-semibold">Selected work from our production floor.</h2>
+              <h2 className="text-3xl md:text-4xl font-semibold">
+                Selected work from our production floor.
+              </h2>
             </div>
             <p className="text-muted-foreground">
-              Recent developments in apparel draw cords, plain and jacquard elastics, twill tapes, garment brand labels, and corrugated export packaging.
+              Recent developments in apparel draw cords, plain and jacquard
+              elastics, twill tapes, garment brand labels, and corrugated export
+              packaging.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -447,7 +474,10 @@ export default function HomePage() {
               </h2>
             </div>
             <p className="text-muted-foreground text-base max-w-xl">
-              We operate an in-house manufacturing setup with dedicated lines for draw cords, elastic tapes, twill tapes, woven labels, and corrugated cartons. Merchandisers get fast sample approvals and predictable bulk deliveries.
+              We operate an in-house manufacturing setup with dedicated lines
+              for draw cords, elastic tapes, twill tapes, woven labels, and
+              corrugated cartons. Merchandisers get fast sample approvals and
+              predictable bulk deliveries.
             </p>
           </div>
           <div className="why-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -459,7 +489,8 @@ export default function HomePage() {
                 1-Day Sample Turnaround
               </h3>
               <p className="text-muted-foreground text-xs leading-relaxed">
-                Counter-samples for draw cords, twill tapes, and elastics delivered within 24 hours.
+                Counter-samples for draw cords, twill tapes, and elastics
+                delivered within 24 hours.
               </p>
             </div>
             <div className="border border-muted p-6 rounded-2xl bg-white shadow-sm">
@@ -470,7 +501,8 @@ export default function HomePage() {
                 Bulk Consistency
               </h3>
               <p className="text-muted-foreground text-xs leading-relaxed">
-                Approved elongation, yarn density, tensile strength, and color matching carried through full production.
+                Approved elongation, yarn density, tensile strength, and color
+                matching carried through full production.
               </p>
             </div>
             <div className="border border-muted p-6 rounded-2xl bg-white shadow-sm">
@@ -481,7 +513,8 @@ export default function HomePage() {
                 Complete Trims &amp; Packaging
               </h3>
               <p className="text-muted-foreground text-xs leading-relaxed">
-                Source both narrow fabric trims and corrugated export shipping cartons from a single Dhaka supplier.
+                Source both narrow fabric trims and corrugated export shipping
+                cartons from a single Dhaka supplier.
               </p>
             </div>
             <div className="border border-muted p-6 rounded-2xl bg-white shadow-sm">
@@ -492,7 +525,8 @@ export default function HomePage() {
                 Direct Communication
               </h3>
               <p className="text-muted-foreground text-xs leading-relaxed">
-                Immediate responses via WhatsApp and phone to keep merchandising approvals moving forward without delays.
+                Immediate responses via WhatsApp and phone to keep merchandising
+                approvals moving forward without delays.
               </p>
             </div>
           </div>
@@ -541,7 +575,8 @@ export default function HomePage() {
                 Have a draw cord, elastic, twill tape or carton project?
               </h2>
               <p className="text-base text-[#c9d8d2] leading-7 max-w-xl mt-4">
-                Share your specification, tech pack or reference sample — we confirm timeline and pricing within one working day.
+                Share your specification, tech pack or reference sample — we
+                confirm timeline and pricing within one working day.
               </p>
               <div className="mt-4 flex gap-4 flex-wrap text-xs text-[#bfd1ca] font-[600]">
                 <span>
