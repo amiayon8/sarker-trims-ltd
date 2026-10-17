@@ -1,111 +1,143 @@
-import { MapPin, Phone, Mail, Globe, Facebook, Twitter, Linkedin, ChevronRight } from 'lucide-react';
-import Link from 'next/link';
-import Image from 'next/image';
+import Link from "next/link";
+import Image from "next/image";
+import { Facebook, Linkedin, MapPin, Phone, Mail } from "lucide-react";
 
 export function Footer() {
   return (
-    <footer id="footer" className="bg-slate-950 py-20 border-slate-900 border-t text-slate-400">
-      <div className="mx-auto px-4 container">
-        <div className="gap-12 grid md:grid-cols-2 lg:grid-cols-4 mb-16">
-          <div>
-            {/* Brand */}
-            <Link href="/">
-              <Image src="/media/logo.png" width={300} height={50} alt='Sarker Trims Limited' className='brightness-0 invert my-auto w-auto h-10 sm:h-14 filter' />
+    <footer className="bg-[#102a22] text-white py-16 pb-0 text-xs">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid md:grid-cols-4 gap-8">
+          <div className="space-y-4">
+            <Link
+              href="/"
+              className="inline-block bg-white/95 rounded-xl p-2.5 shadow-sm"
+              aria-label="Homepage"
+            >
+              <Image
+                src="/media/logo.png"
+                alt="Sarker Trims Logo"
+                width={200}
+                height={45}
+                className="h-9 w-auto object-contain"
+              />
             </Link>
-
-            <p className="mb-6 leading-relaxed">
-              Global leaders in RMG accessory solutions. Delivering excellence, reliability, and precision to the garment industry since 2016.
+            <p className="text-slate-400 max-w-52">
+              B2B manufacturer of garment trims, accessories and leather goods in Dhaka, Bangladesh.
             </p>
-            <div className="flex gap-4">
-              <div className="flex justify-center items-center bg-slate-900 hover:bg-red-700 rounded-full w-10 h-10 hover:text-white transition-all cursor-pointer">
-                <Facebook size={18} />
-              </div>
-              <div className="flex justify-center items-center bg-slate-900 hover:bg-red-700 rounded-full w-10 h-10 hover:text-white transition-all cursor-pointer">
-                <Twitter size={18} />
-              </div>
-              <div className="flex justify-center items-center bg-slate-900 hover:bg-red-700 rounded-full w-10 h-10 hover:text-white transition-all cursor-pointer">
-                <Linkedin size={18} />
-              </div>
+            <div className="flex gap-x-4 text-slate-400">
+              <a
+                href="https://www.facebook.com/tubatrims"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-colors duration-300 hover:text-white"
+                aria-label="Facebook"
+              >
+                <Facebook className="size-5" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/tareq-chy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-colors duration-300 hover:text-white"
+                aria-label="LinkedIn"
+              >
+                <Linkedin className="size-5" />
+              </a>
             </div>
           </div>
 
-          {/* Quick Links */}
-          <div>
-            <h4 className="mb-6 font-bold text-white text-lg">Navigations</h4>
-            <ul className="space-y-4">
-              {[
-                { name: 'Home', href: '/' },
-                { name: 'About Us', href: '/about-us' },
-                { name: 'Board', href: '/board-of-directors' },
-                { name: 'Products', href: '/product-range' },
-                { name: 'Machineries', href: '/machineries' },
-                { name: 'Service', href: '/our-service' },
-                { name: 'Policy', href: '/our-policy' },
-                { name: 'Contact', href: '/contact-us' }
-              ].map((item) => (
-                <li key={item.name}>
-                  <Link href={item.href} className="flex items-center gap-2 hover:text-red-500 transition-colors">
-                    <ChevronRight size={14} className="text-red-600" />
-                    {item.name}
+          <div className="col-span-3 grid grid-cols-2 md:grid-cols-3 gap-8">
+            <div>
+              <p className="mb-4 uppercase tracking-widest font-semibold text-slate-200">
+                Quick Links
+              </p>
+              <ul className="space-y-2 text-slate-400">
+                <li>
+                  <Link className="hover:text-white transition-colors" href="/gallery">
+                    Product Gallery
                   </Link>
                 </li>
-              ))}
-            </ul>
-          </div>
+                <li>
+                  <Link className="hover:text-white transition-colors" href="/about">
+                    About Us
+                  </Link>
+                </li>
+                <li>
+                  <Link className="hover:text-white transition-colors" href="/faq">
+                    FAQ
+                  </Link>
+                </li>
+                <li>
+                  <Link className="hover:text-white transition-colors" href="/contact">
+                    Request a Sample
+                  </Link>
+                </li>
+              </ul>
+            </div>
 
-          {/* Office */}
-          <div>
-            <h4 className="mb-6 font-bold text-white text-lg">Corporate Office</h4>
-            <ul className="space-y-4 text-sm">
-              <li className="flex gap-3">
-                <MapPin className="text-red-600 shrink-0" size={20} />
-                <span>House # 9, Road # 12, Sector # 11, Uttara, Dhaka-1230, Bangladesh</span>
-              </li>
-              <li className="flex gap-3">
-                <Phone className="text-red-600 shrink-0" size={20} />
-                <span>+8801xxxxxxxxx</span>
-              </li>
-              <li className="flex gap-3">
-                <Mail className="text-red-600 shrink-0" size={20} />
-                <span>sarkertrims@gmail.com</span>
-              </li>
-              <li className="flex gap-3">
-                <Globe className="text-red-600 shrink-0" size={20} />
-                <span>www.sarkertrims.com</span>
-              </li>
-            </ul>
-          </div>
+            <div>
+              <p className="mb-4 uppercase tracking-widest font-semibold text-slate-200">
+                Products
+              </p>
+              <ul className="space-y-2 text-slate-400">
+                <li>
+                  <Link className="hover:text-white transition-colors" href="/gallery/belt">
+                    Leather &amp; PU Belts
+                  </Link>
+                </li>
+                <li>
+                  <Link className="hover:text-white transition-colors" href="/gallery/woven_belt">
+                    Woven Belts
+                  </Link>
+                </li>
+                <li>
+                  <Link className="hover:text-white transition-colors" href="/gallery/patch">
+                    Patches &amp; Badges
+                  </Link>
+                </li>
+                <li>
+                  <Link className="hover:text-white transition-colors" href="/gallery/zipper_puller">
+                    Zipper Pullers
+                  </Link>
+                </li>
+              </ul>
+            </div>
 
-          {/* Contact Person Summary */}
-          <div>
-            <h4 className="mb-6 font-bold text-white text-lg">Management</h4>
-            <ul className="space-y-4 text-sm">
-              <li>
-                <div className="bg-slate-900/50 p-4 border border-slate-800 rounded-xl w-full">
-                  <p className="mb-1 font-bold text-white">Mr. Nitya Gopal Sarker</p>
-                  <p className="mb-4 font-bold text-red-500 text-xs uppercase tracking-tighter">Managing Director</p>
-                  <div className="flex items-center gap-2 mb-1">
-                    <Mail className="text-slate-600 shrink-0" size={16} />
-                    <span>gopal8824@gmail.com</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Phone className="text-slate-600 shrink-0" size={16} />
-                    <span>+8801xxxxxxxxx</span>
-                  </div>
+            <div>
+              <p className="mb-4 uppercase tracking-widest font-semibold text-slate-200">
+                Contact
+              </p>
+              <div className="space-y-3 text-slate-400">
+                <div className="flex items-start space-x-2">
+                  <MapPin className="size-4 shrink-0 mt-0.5" />
+                  <address className="not-italic">
+                    <span>30/31 Purana Mugotuli, </span>
+                    <br />
+                    Dhaka, Bangladesh
+                  </address>
                 </div>
-              </li>
-            </ul>
+                <div className="flex items-center space-x-2">
+                  <Phone className="size-4 shrink-0" />
+                  <span>+880 1302-250001</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <Mail className="size-4 shrink-0" />
+                  <a
+                    href="mailto:info@tubatrims.com"
+                    className="hover:text-white transition-colors"
+                  >
+                    info@tubatrims.com
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div className="flex md:flex-row flex-col justify-between items-center gap-4 pt-10 border-slate-900 border-t text-slate-500 text-xs">
-          <p>© {new Date().getFullYear()} Sarker Trims Limited. All rights reserved.</p>
-          <div className="flex gap-6">
-            <Link href="/our-policy" className="hover:text-white transition-colors">Policy</Link>
-            <Link href="/about-us" className="hover:text-white transition-colors">At A Glance</Link>
-          </div>
+        <div className="mt-8 md:mt-12 border-t border-slate-800 py-6 text-center text-slate-400">
+          <p>© 2026 Tuba Trims. All rights reserved.</p>
         </div>
       </div>
-    </footer >
+    </footer>
   );
-};
+}
