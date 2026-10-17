@@ -12,7 +12,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Draw Cords, Elastics, Twill Tapes & Carton Boxes | Sarker Trims Bangladesh",
+  title:
+    "Sarker Trims Bangladesh | Draw Cords, Elastics, Twill Tapes & Carton Boxes",
   description:
     "Sarker Trims manufactures apparel draw cords, plain and jacquard elastics, needle loom twill tapes, printed & woven labels, and corrugated export carton boxes in Dhaka, Bangladesh. Fast 1-day sampling.",
   keywords: [
@@ -29,9 +30,6 @@ export const metadata: Metadata = {
     "garment export packaging",
     "Sarker Trims",
   ],
-  icons: {
-    icon: "/icon.ico",
-  },
 };
 
 export default function RootLayout({

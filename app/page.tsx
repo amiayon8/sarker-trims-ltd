@@ -159,7 +159,7 @@ export default function HomePage() {
               Made in Dhaka · Garment Trims &amp; Packaging
             </p>
             <h1 className="mt-6 text-balance text-[clamp(38px,4.8vw,62px)] leading-none font-bold tracking-[-0.055em]">
-              Draw Cords, Elastics, Twill Tapes &amp; Packaging
+              Trims &amp; Packaging
               <span className="text-[var(--leather)]">
                 <br />
                 Manufactured to Your Exact Spec.
