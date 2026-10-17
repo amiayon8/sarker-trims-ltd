@@ -92,7 +92,7 @@ export function PageComponent() {
                                 We can also provide you the below items at a market competitive price:
                             </p>
                             <p className="mt-4 font-medium text-slate-500 dark:text-slate-400 text-sm italic">
-                                All kinds of Pocketing fabrics, PVC bag, Interline, Hanger, Silica Gel, Tag Pin, Zip Lock, Button (Wooden, Plastic & Metal), Lace, Leather Badge, Rubber Patch, Toggle, Plastic Clip, Tissue, Printed Tissue, Local Fabrics (Knit & Woven) Buckle, etc.
+                                All kinds of Pocketing fabrics, PVC bag, Interline, Hanger, Silica Gel, Tag Pin, Zip Lock, Button, Lace, Rubber Patch, Toggle, Plastic Clip, Tissue, Printed Tissue, Local Fabrics (Knit & Woven), etc.
                             </p>
                         </div>
 

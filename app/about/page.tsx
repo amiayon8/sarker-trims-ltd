@@ -3,9 +3,9 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Sarker Trims | Garment Trims Manufacturer in Dhaka, Bangladesh",
+  title: "About Sarker Trims | Garment Trims & Packaging Manufacturer in Dhaka",
   description:
-    "Learn about Sarker Trims, established in 2015 in Dhaka. B2B manufacturer of belts, patches, badges, zipper pullers, and custom garment accessories.",
+    "Learn about Sarker Trims, established in 2015 in Dhaka. B2B manufacturer of draw cords, plain and jacquard elastics, twill tapes, printed/woven labels, and corrugated export carton boxes.",
 };
 
 export default function AboutPage() {
@@ -23,21 +23,21 @@ export default function AboutPage() {
     {
       label: "Business model",
       value:
-        "B2B manufacturing — custom development, sample development and bulk production",
+        "B2B manufacturing — custom sample development, lab dips, rapid prototyping, and bulk production",
     },
     {
       label: "Products",
       value:
-        "Leather & PU belts, woven & fabric belts, patches & badges, zipper pullers, buttons & fasteners, suspenders & cross belts, wallets & leather goods, custom branding accessories",
+        "Draw cords & drawstrings with custom aglets, plain knitted & braided elastic (up to 15cm), jacquard elastic bands (up to 5.5cm), needle loom herringbone twill tape, printed care labels, woven damask labels & badges, 3-ply, 5-ply & 7-ply corrugated export cartons",
     },
     {
       label: "Capabilities",
       value:
-        "Leather/PU cutting & skiving, webbing assembly, metal hardware fitting, embossing, debossing, hot-stamping, laser & screen-print branding, industrial stitching, in-house QC & packing",
+        "Needle loom weaving, computerized jacquard weaving, multi-spindle cord braiding, tipping & aglet crimping (silicone, metal, heat-shrink), rotary label printing, ultrasonic cutting & folding, corrugated carton converting, in-house tensile & stretch testing, QC inspection",
     },
     {
       label: "Markets served",
-      value: "Garment factories in Bangladesh; brands and buyers across Bangladesh",
+      value: "Garment exporters, buying houses, and fashion apparel brands across Bangladesh",
     },
     {
       label: "Business hours",
@@ -54,15 +54,11 @@ export default function AboutPage() {
             <div className="eyebrow text-[12px] font-extrabold uppercase tracking-[0.18em] text-[#b56b3d]">
               About Sarker Trims
             </div>
-            <h1 className="tracking-[-0.025em] font-bold mb-6 mt-[14px] text-[clamp(46px,6vw,78px)] leading-[1.02] max-[580px]:text-[44px]">
-              Garment trims manufacturer in Bangladesh you can rely on.
+            <h1 className="tracking-[-0.025em] font-bold mb-6 mt-[14px] text-[clamp(40px,5.5vw,70px)] leading-[1.02] max-[580px]:text-[38px]">
+              Garment trims and packaging partner you can rely on.
             </h1>
             <p className="max-w-[720px] text-[19px] text-[#4f5c56]">
-              Sarker Trims manufactures belts, patches, badges, zipper pullers,
-              buttons and custom garment accessories in Dhaka. Founded in 2015 by
-              Golam Kibria Chowdhury and led by Managing Director Tareq
-              Chowdhury, we supply garment factories and buyers across Bangladesh
-              with reliable quality and on-time delivery.
+              Sarker Trims manufactures draw cords, plain and jacquard elastics, twill tapes, printed and woven items, and corrugated export carton boxes in Dhaka. Founded in 2015 by Golam Kibria Chowdhury and led by Managing Director Tareq Chowdhury, we supply apparel factories with fast 1-day sampling, technical consistency, and reliable bulk delivery.
             </p>
           </div>
           <aside
@@ -77,8 +73,7 @@ export default function AboutPage() {
               Sarker Trims
             </h2>
             <p className="mb-[26px] text-[14px] text-[#d8e2dd]">
-              B2B manufacturer of garment trims, accessories and leather goods
-              at 30/31 Purana Mugoltuli, Dhaka 1100, Bangladesh.
+              B2B manufacturer of garment trims, narrow fabrics &amp; export packaging at 30/31 Purana Mugoltuli, Dhaka 1100, Bangladesh.
             </p>
             <div className="grid grid-cols-2 border-t border-white/[0.18] max-[580px]:grid-cols-1">
               <div className="border-b border-white/[0.18] py-[18px] odd:border-r odd:border-white/[0.18] odd:pr-[18px] even:pl-[18px] max-[580px]:odd:border-r-0 max-[580px]:odd:pr-0 max-[580px]:even:pl-0">
@@ -90,19 +85,19 @@ export default function AboutPage() {
               <div className="border-b border-white/[0.18] py-[18px] odd:border-r odd:border-white/[0.18] odd:pr-[18px] even:pl-[18px] max-[580px]:odd:border-r-0 max-[580px]:odd:pr-0 max-[580px]:even:pl-0">
                 <b className="block text-[24px]">3,000</b>
                 <span className="text-[12px] text-[#b9cbc2]">
-                  sq ft manufacturing facility
+                  sq ft production floor
                 </span>
               </div>
               <div className="border-b border-white/[0.18] py-[18px] odd:border-r odd:border-white/[0.18] odd:pr-[18px] even:pl-[18px] max-[580px]:odd:border-r-0 max-[580px]:odd:pr-0 max-[580px]:even:pl-0">
                 <b className="block text-[24px]">25+</b>
                 <span className="text-[12px] text-[#b9cbc2]">
-                  skilled production team
+                  production team
                 </span>
               </div>
               <div className="border-b border-white/[0.18] py-[18px] odd:border-r odd:border-white/[0.18] odd:pr-[18px] even:pl-[18px] max-[580px]:odd:border-r-0 max-[580px]:odd:pr-0 max-[580px]:even:pl-0">
                 <b className="block text-[24px]">20+</b>
                 <span className="text-[12px] text-[#b9cbc2]">
-                  production machines
+                  weaving &amp; converting units
                 </span>
               </div>
             </div>
@@ -118,7 +113,7 @@ export default function AboutPage() {
             </dt>
             <dd className="mt-2 font-[Georgia,serif] text-[28px]">Manufacturer</dd>
             <dd className="mt-1 text-[13px] text-[#6b746f]">
-              Garment trims, accessories &amp; leather goods
+              Narrow fabrics, trims &amp; corrugated cartons
             </dd>
           </div>
           <div className="border-r border-[#d8d3c8] p-7 last:border-r-0 max-[900px]:border-b max-[900px]:[&:nth-child(2)]:border-r-0 max-[580px]:border-r-0">
@@ -132,11 +127,11 @@ export default function AboutPage() {
           </div>
           <div className="border-r border-[#d8d3c8] p-7 last:border-r-0 max-[900px]:border-b max-[900px]:[&:nth-child(2)]:border-r-0 max-[580px]:border-r-0">
             <dt className="text-[12px] font-extrabold uppercase tracking-[0.1em] text-[#6b746f]">
-              Core support
+              Core capability
             </dt>
-            <dd className="mt-2 font-[Georgia,serif] text-[28px]">End-to-end</dd>
+            <dd className="mt-2 font-[Georgia,serif] text-[28px]">1-Day Sampling</dd>
             <dd className="mt-1 text-[13px] text-[#6b746f]">
-              Development, sampling &amp; bulk production
+              Rapid prototyping &amp; 3-day bulk turnaround
             </dd>
           </div>
           <div className="border-r border-[#d8d3c8] p-7 last:border-r-0 max-[900px]:border-b max-[900px]:[&:nth-child(2)]:border-r-0 max-[580px]:border-r-0">
@@ -159,7 +154,7 @@ export default function AboutPage() {
                 Our story
               </div>
               <h2 className="my-[10px] text-[clamp(36px,4.5vw,58px)] leading-[1.04] tracking-[-0.025em] font-bold">
-                Built to be Bangladesh’s dependable garment trims partner.
+                Built to be Bangladesh’s dependable trims and packaging source.
               </h2>
             </div>
             <div className="pt-7 text-[17px] text-[#59645f] max-[900px]:pt-0" />
@@ -167,21 +162,13 @@ export default function AboutPage() {
           <div className="grid grid-cols-[0.95fr_1.05fr] gap-20 max-[900px]:grid-cols-1">
             <div>
               <p className="mb-[1em] text-[18px] text-[#505c56]">
-                Sarker Trims was founded in 2015 by Golam Kibria Chowdhury, with his
-                son Tareq Chowdhury leading the business as Managing Director.
-                Their goal was clear: give garment factories in Bangladesh a
-                dependable local source for trims and accessories that match the
-                approved sample every time and ship on schedule.
+                Sarker Trims was founded in 2015 by Golam Kibria Chowdhury, with his son Tareq Chowdhury leading the business as Managing Director. Their vision was simple: provide garment manufacturers in Bangladesh with an agile local supplier for high-spec narrow fabrics, trims, and packaging that match approved lab dips and buyer tech packs without delays.
               </p>
               <p className="mb-[1em] text-[18px] text-[#505c56]">
-                From a first unit in Dhaka, the company has grown into a
-                dedicated garment trims manufacturer, producing leather and PU
-                belts, woven belts, patches and badges, zipper pullers, buttons,
-                suspenders and custom trims for garment factories in Bangladesh.
+                From our facility in Dhaka, Sarker Trims operates dedicated needle looms, computerized jacquard machines, multi-spindle braiding lines, and carton converting machinery. We produce draw cords, plain and jacquard elastics, twill tapes, printed and woven items, and corrugated carton boxes tailored to buyer requirements.
               </p>
               <blockquote className="my-7 border-l-[3px] border-[#b56b3d] py-1 pl-[22px] font-[Georgia,serif] text-[24px] leading-[1.35]">
-                “Understand the requirement, make it carefully, and stand behind
-                the work.”
+                “Understand the technical requirement, weave it carefully, and deliver on schedule.”
               </blockquote>
               <Link
                 href="/contact"
@@ -199,22 +186,18 @@ export default function AboutPage() {
                   Sarker Trims begins
                 </h3>
                 <p className="m-0 text-[14px] text-[#6b746f]">
-                  Golam Kibria Chowdhury establishes Sarker Trims at Purana
-                  Mugoltuli, Dhaka, with Tareq Chowdhury as Managing Director, to
-                  manufacture belts and accessories for garment factories.
+                  Golam Kibria Chowdhury establishes Sarker Trims at Purana Mugoltuli, Dhaka, with Tareq Chowdhury as Managing Director, supporting garment manufacturers with quality trims and reliable delivery.
                 </p>
               </li>
               <li className="relative pb-9 last:pb-0 before:absolute before:-left-[31px] before:top-[6px] before:h-3 before:w-3 before:rounded-full before:bg-[#b56b3d] before:shadow-[0_0_0_6px_#f6f3ed] before:content-['']">
                 <div className="text-[12px] font-black uppercase tracking-[0.15em] text-[#b56b3d]">
-                  Growth
+                  Expansion
                 </div>
                 <h3 className="tracking-[-0.025em] font-bold mb-2 mt-[6px] text-[25px]">
-                  Focused fully on garment trims
+                  Specialized in narrow fabrics &amp; cartons
                 </h3>
                 <p className="m-0 text-[14px] text-[#6b746f]">
-                  Under Tareq&apos;s leadership the company commits entirely to trims
-                  and expands into patches, badges, zipper pullers and buttons,
-                  with in-house sample development.
+                  Added computerized jacquard looms, needle loom twill tape lines, high-speed cord braiders, and corrugated carton converting to provide complete trims and packaging under one roof.
                 </p>
               </li>
               <li className="relative pb-9 last:pb-0 before:absolute before:-left-[31px] before:top-[6px] before:h-3 before:w-3 before:rounded-full before:bg-[#b56b3d] before:shadow-[0_0_0_6px_#f6f3ed] before:content-['']">
@@ -222,24 +205,21 @@ export default function AboutPage() {
                   Today
                 </div>
                 <h3 className="tracking-[-0.025em] font-bold mb-2 mt-[6px] text-[25px]">
-                  3,000 sq ft trims factory
+                  3,000 sq ft modern facility
                 </h3>
                 <p className="m-0 text-[14px] text-[#6b746f]">
-                  25+ skilled people and 20+ machines handle cutting, stitching,
-                  hardware fitting, branding and finishing for buyers and
-                  garment factories.
+                  25+ skilled operators and technicians manage weaving, braiding, tipping, printing, and packaging with 1-day sample turnaround and 3-day bulk production.
                 </p>
               </li>
               <li className="relative pb-9 last:pb-0 before:absolute before:-left-[31px] before:top-[6px] before:h-3 before:w-3 before:rounded-full before:bg-[#b56b3d] before:shadow-[0_0_0_6px_#f6f3ed] before:content-['']">
                 <div className="text-[12px] font-black uppercase tracking-[0.15em] text-[#b56b3d]">
-                  Next
+                  Commitment
                 </div>
                 <h3 className="tracking-[-0.025em] font-bold mb-2 mt-[6px] text-[25px]">
-                  Growing with our customers
+                  Zero tolerance on quality deviations
                 </h3>
                 <p className="m-0 text-[14px] text-[#6b746f]">
-                  Continued investment in machinery and faster sampling so
-                  buyers can develop and scale new trims with confidence.
+                  Strict tensile, elongation, and wash-fastness standards ensure our trims and corrugated shipping boxes meet international apparel compliance tests.
                 </p>
               </li>
             </ol>
@@ -251,22 +231,16 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-[0.8fr_1.2fr] items-start gap-14 max-[900px]:grid-cols-1">
           <div>
             <div className="eyebrow text-[12px] font-extrabold uppercase tracking-[0.18em] text-[#b56b3d]">
-              Leadership &amp; people
+              Leadership &amp; team
             </div>
-            <h2 className="tracking-[-0.025em] font-bold mb-[0.83em] text-[54px] leading-[1.03]">
-              A family-run factory with a 25-strong production team.
+            <h2 className="tracking-[-0.025em] font-bold mb-[0.83em] text-[48px] leading-[1.03]">
+              Hands-on leadership with a dedicated production team.
             </h2>
             <p className="mb-[1em] text-[#59645f]">
-              Sarker Trims is a family-owned business led by its founder and
-              managing director. Both are involved in the business every day,
-              which means decisions on samples, materials and delivery dates are
-              made quickly and by people who understand the work.
+              Sarker Trims is led by its founder and managing director. Both are actively involved on the factory floor every day, which means technical decisions on yarn counts, stretch elasticity, tipping molds, and carton ply ratings are resolved immediately.
             </p>
             <p className="mb-[1em] text-[#59645f]">
-              Behind them is a team of more than 25 cutters, machine operators,
-              finishers and quality checkers, many of whom have been with the
-              company for years and have built deep experience in leather, PU,
-              webbing and metal-hardware trims.
+              Our team of 25+ skilled loom operators, braiders, printers, and packaging technicians bring deep manufacturing expertise across narrow fabrics and corrugated board production.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-[18px] max-[900px]:grid-cols-1">
@@ -291,9 +265,7 @@ export default function AboutPage() {
                   Golam Kibria Chowdhury
                 </h3>
                 <p className="m-0 text-[13px] text-[#6b746f]">
-                  Established Sarker Trims in 2015 and set the hands-on,
-                  quality-first standard the factory still works to. Continues to
-                  guide the company&apos;s long-term direction.
+                  Established Sarker Trims in 2015 and set the uncompromising quality standards the factory upholds today. Continues to guide long-term strategy.
                 </p>
               </div>
             </article>
@@ -318,10 +290,7 @@ export default function AboutPage() {
                   Tareq Chowdhury
                 </h3>
                 <p className="m-0 text-[13px] text-[#6b746f]">
-                  Leads the business day to day, including customer development,
-                  sample approvals, production planning, quality and delivery. He
-                  is the direct point of contact for buyers and garment
-                  factories.
+                  Manages operations, sample approvals, customer development, and bulk scheduling. He acts as the direct point of contact for factory merchandisers and buyer technical teams.
                 </p>
               </div>
             </article>
@@ -337,7 +306,7 @@ export default function AboutPage() {
                 Direction
               </div>
               <h2 className="my-[10px] text-[clamp(36px,4.5vw,58px)] leading-[1.04] tracking-[-0.025em] font-bold">
-                Mission, vision and the principles we work by.
+                Mission, vision and our manufacturing principles.
               </h2>
             </div>
             <div className="pt-7 text-[17px] text-[#59645f] max-[900px]:pt-0" />
@@ -348,10 +317,7 @@ export default function AboutPage() {
                 Our mission
               </div>
               <p className="mb-[1em] text-[16px] text-[#59645f]">
-                Give garment factories and brands one local partner for belts,
-                patches, badges, zipper pullers and leather goods — with fast
-                sample development, careful production and straight answers from
-                requirement to delivery.
+                Provide garment factories with a dependable manufacturing partner for draw cords, elastics, twill tapes, labels, and export cartons — offering 1-day sampling, technical accuracy, and bulk delivery on schedule.
               </p>
             </article>
             <article className="rounded-3xl border border-[#d8d3c8] p-[34px]">
@@ -359,9 +325,7 @@ export default function AboutPage() {
                 Our vision
               </div>
               <p className="mb-[1em] text-[16px] text-[#59645f]">
-                Grow from a trusted Dhaka workshop into a recognised regional
-                manufacturer by investing in people, machinery and documented
-                processes rather than shortcuts.
+                Serve as Bangladesh’s most reliable narrow fabrics and corrugated packaging producer by investing in high-speed looms, precision tipping technology, and rigorous quality control.
               </p>
             </article>
           </div>
@@ -375,19 +339,19 @@ export default function AboutPage() {
             <li className="min-h-[180px] rounded-[20px] bg-[#153a30] p-6 text-white">
               <span className="text-[12px] text-[#c7d5ce]">02</span>
               <b className="mt-10 block font-[Georgia,serif] text-[22px]">
-                Clear, direct communication
+                1-day sampling speed
               </b>
             </li>
             <li className="min-h-[180px] rounded-[20px] bg-[#153a30] p-6 text-white">
               <span className="text-[12px] text-[#c7d5ce]">03</span>
               <b className="mt-10 block font-[Georgia,serif] text-[22px]">
-                Long-term partnerships
+                Bulk consistency
               </b>
             </li>
             <li className="min-h-[180px] rounded-[20px] bg-[#153a30] p-6 text-white">
               <span className="text-[12px] text-[#c7d5ce]">04</span>
               <b className="mt-10 block font-[Georgia,serif] text-[22px]">
-                Continuous improvement
+                Long-term trust
               </b>
             </li>
           </ul>
@@ -403,21 +367,18 @@ export default function AboutPage() {
             <div className="eyebrow text-[12px] font-extrabold uppercase tracking-[0.18em] text-[#b56b3d]">
               Company credentials
             </div>
-            <h2 className="tracking-[-0.025em] font-bold mb-[0.83em] text-[50px] leading-[1.05]">
+            <h2 className="tracking-[-0.025em] font-bold mb-[0.83em] text-[46px] leading-[1.05]">
               Sarker Trims at a glance for sourcing teams.
             </h2>
             <p className="mb-[1em]">
-              The essentials a merchandiser or sourcing manager needs when adding
-              a new trims supplier: who we are, where we manufacture, what we make
-              and who we serve.
+              The essential information merchandisers, buying houses, and sourcing heads need when onboarding a trims and packaging supplier: facilities, capabilities, machinery, and lead times.
             </p>
             <p className="mb-[1em] mt-4 text-[13px] text-[#66706b]">
-              Need company documents, references or a factory visit before
-              placing an order? Email{" "}
-              <a href="mailto:info@sarkertrims.com" className="underline">
+              Need company profile documents, certifications, or want to schedule a factory visit? Email{" "}
+              <a href="mailto:info@sarkertrims.com" className="underline font-semibold text-primary">
                 info@sarkertrims.com
               </a>{" "}
-              and we will respond within one working day.
+              and our management will respond within one working day.
             </p>
           </div>
           <dl className="overflow-hidden rounded-[22px] border border-[#cfd6d1] bg-[#f6f3ed]">

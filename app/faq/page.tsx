@@ -11,65 +11,58 @@ export default function FAQPage() {
     {
       question: "What products do you manufacture?",
       answer:
-        "We manufacture garment trims and accessories including leather and PU belts, woven and fabric belts, patches, badges, zipper pullers, buttons, fasteners, suspenders, cross belts and custom branding hardware. All products can be customized to your specification.",
+        "We manufacture six dedicated product categories: Draw Cords & Drawstrings (round, flat, with custom aglets/tipping), Plain Elastics (knitted & braided up to 15cm), Jacquard Elastics (custom woven up to 5.5cm), Needle Loom Twill Tapes (cotton, polyester & nylon), Printed & Woven Items (damask labels, satin care tags, ribbons, badges), and Corrugated Carton Boxes (3-ply, 5-ply & 7-ply export master cartons).",
     },
     {
-      question: "Do you offer custom manufacturing?",
+      question: "What are your sample and bulk production lead times?",
       answer:
-        "Yes. Custom manufacturing is our specialty. Send artwork, a reference sample or a tech pack and we develop material, dimensions, colour, branding, hardware and finishing around your requirements.",
+        "Sampling is extremely fast: Needle Loom/Twill Tape, Draw Cords, Jacquard Elastic, and Plain Elastic take 1 (One) Day for samples and 3 (Three) Days for bulk after approval. Carton box samples take 12 Hours. Printed & Woven Labels take 3 Days for samples and 7 Days for bulk.",
     },
     {
-      question: "Can I order in small or large quantities?",
+      question: "Do you offer custom tipping and aglets for draw cords?",
       answer:
-        "We cater to both sample orders and large bulk production. Minimum order quantities may vary depending on the product type and level of customization.",
+        "Yes. We offer silicone-dipped tips, clear plastic heat-shrink aglets, custom embossed/engraved metal aglets, and folded tips in matte, gloss, or customized Pantone finishes.",
     },
     {
-      question: "What materials do you use?",
+      question: "What materials and yarns do you use?",
       answer:
-        "We use genuine leather, PU leather, cotton webbing, polyester, metal hardware, wood and eco-friendly alternatives — chosen to meet international standards for durability and appearance.",
+        "We weave with high-grade cotton, polyester, spun polyester, bright PP, and nylon yarns. For elastics, we utilize high-recovery natural rubber and spandex threads. For cartons, we utilize virgin and local kraft liner papers (125–170 GSM) with 3, 5, or 7-ply fluting.",
     },
     {
-      question: "How long does production take?",
+      question: "Can I request physical counter-samples before bulk order?",
       answer:
-        "Standard orders are usually completed within 2–4 weeks. Lead time depends on order size and customization complexity. Urgent requests can be discussed for faster turnaround.",
+        "Yes. Send us your tech pack, physical swatch, or artwork. We produce physical counter-samples for lab dip and tensile approval within 24 hours.",
     },
     {
-      question: "Do you ship outside Bangladesh?",
+      question: "What widths and sizes can you manufacture for elastics and tapes?",
       answer:
-        "Yes. We work with garment factories and buyers in Bangladesh, and can arrange global shipping through trusted logistics partners.",
+        "Plain elastic bands can be manufactured up to 15 cm in width. Jacquard elastic waistband tapes can be woven up to 5.5 cm in width with custom jacquard typography and patterns. Twill tapes and draw cords are custom sized from 3mm to 50mm.",
     },
     {
-      question: "How can I place an order or request a quote?",
+      question: "How can I request a quote or submit artwork?",
       answer: (
         <>
-          Visit our{" "}
+          You can submit your tech pack via our{" "}
           <Link href="/contact" className="text-primary underline">
             Contact page
           </Link>{" "}
-          or email{" "}
+          or email us directly at{" "}
           <a href="mailto:info@sarkertrims.com" className="text-primary underline">
             info@sarkertrims.com
           </a>{" "}
-          with your product details, quantity and any custom specifications. Our
-          team will reply with construction options and pricing within one
-          working day.
+          or WhatsApp us at +880 1302-250001. We review specifications and provide pricing within one working day.
         </>
       ),
     },
     {
-      question: "Can I see samples before placing a bulk order?",
+      question: "Do you supply factories outside Dhaka?",
       answer:
-        "Yes, we develop physical samples for approval before bulk production begins. Sample costs and shipping charges may apply depending on the product.",
+        "Yes. We supply garment manufacturers, export factories, and buying houses across Dhaka, Gazipur, Narayanganj, Chattogram, and throughout Bangladesh.",
     },
     {
-      question: "What payment methods do you accept?",
+      question: "What quality checks are performed on finished goods?",
       answer:
-        "We accept bank transfers and other secure payment methods commonly used in international trade. Payment terms are discussed during the order process.",
-    },
-    {
-      question: "Do you guarantee product quality?",
-      answer:
-        "Every lot is checked against the approved sample specification and measurements before packing and dispatch. Quality control is built into every stage of our production workflow.",
+        "Every batch is tested in-house for tensile strength, elongation recovery percentage, wash-fastness, Pantone color accuracy, and box bursting strength before packing and factory dispatch.",
     },
   ];
 
@@ -89,9 +82,7 @@ export default function FAQPage() {
               Frequently Asked Questions
             </h1>
             <p className="text-lg md:text-xl max-w-3xl leading-relaxed">
-              Answers about custom garment trims manufacturing, materials, lead
-              times, export shipping and how to request a sample or quote from
-              Sarker Trims.
+              Technical details regarding draw cords, plain and jacquard elastics, twill tapes, garment labels, and corrugated cartons manufactured by Sarker Trims.
             </p>
           </div>
         </div>

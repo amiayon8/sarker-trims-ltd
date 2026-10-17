@@ -270,7 +270,7 @@ export default function ContactPage() {
                       Material, color &amp; finish
                     </h3>
                     <p className="mt-0.5 text-[11px] leading-4 text-muted-foreground">
-                      Leather type, metal finish, color reference
+                      Yarn type, elasticity, tipping style, color reference
                     </p>
                   </div>
                 </li>

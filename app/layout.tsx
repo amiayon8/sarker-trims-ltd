@@ -12,22 +12,22 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Garment Trims Manufacturer in Bangladesh | Belts, Patches & Pullers | Sarker Trims",
+  title: "Draw Cords, Elastics, Twill Tapes & Carton Boxes | Sarker Trims Bangladesh",
   description:
-    "Sarker Trims manufactures custom garment belts, patches, badges, zipper pullers, tags and buttons in Dhaka. Sample-to-bulk production for factories and brands. Request a sample.",
+    "Sarker Trims manufactures apparel draw cords, plain and jacquard elastics, needle loom twill tapes, printed & woven labels, and corrugated export carton boxes in Dhaka, Bangladesh. Fast 1-day sampling.",
   keywords: [
     "garment trims manufacturer",
-    "garment trims manufacturer Bangladesh",
-    "garment accessories manufacturer",
-    "custom garment trims",
-    "garment belt manufacturer",
-    "leather belt manufacturer",
-    "PU belt manufacturer Bangladesh",
-    "zipper puller manufacturer",
-    "clothing patches manufacturer",
-    "garment badges manufacturer",
-    "custom buttons for garments",
-    "Bangladesh garment trims",
+    "draw cord manufacturer Bangladesh",
+    "drawstring manufacturer",
+    "elastic tape manufacturer",
+    "jacquard elastic Bangladesh",
+    "twill tape manufacturer",
+    "needle loom tape",
+    "woven labels Bangladesh",
+    "printed care labels",
+    "corrugated carton manufacturer",
+    "garment export packaging",
+    "Sarker Trims",
   ],
   icons: {
     icon: "/icon.ico",

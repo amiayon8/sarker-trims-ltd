@@ -4,22 +4,12 @@ import type { Metadata } from "next";
 export function generateStaticParams() {
   const categories = [
     "all",
-    "belt",
-    "button",
-    "cross_belt",
-    "drawstring",
+    "draw-cord",
     "elastic",
-    "heat_seal",
-    "ilet",
-    "key_ring",
-    "label",
-    "metal_buckle",
-    "patch",
-    "stopper",
-    "tag",
-    "tap",
-    "woven_belt",
-    "zipper_puller",
+    "jacquard-elastic",
+    "twill-tape",
+    "printed-and-woven-item",
+    "carton-box",
   ];
   return categories.map((category) => ({ category }));
 }
@@ -30,10 +20,10 @@ export async function generateMetadata({
   params: Promise<{ category: string }>;
 }): Promise<Metadata> {
   const { category } = await params;
-  const formattedCategory = category.replace(/_/g, " ");
+  const formattedCategory = category.replace(/-/g, " ");
   return {
     title: `${formattedCategory.toUpperCase()} | Product Gallery | Sarker Trims`,
-    description: `Explore custom ${formattedCategory} and garment accessories manufactured in Dhaka, Bangladesh.`,
+    description: `Explore custom ${formattedCategory} manufactured by Sarker Trims in Dhaka, Bangladesh. Fast sampling and reliable bulk production for garment factories and brands.`,
   };
 }
 

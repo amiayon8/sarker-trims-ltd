@@ -21,8 +21,8 @@ export function Footer() {
                 className="h-9 w-auto object-contain"
               />
             </Link>
-            <p className="text-slate-400 max-w-52">
-              B2B manufacturer of garment trims, accessories and leather goods in Dhaka, Bangladesh.
+            <p className="text-slate-400 max-w-56 leading-relaxed">
+              B2B manufacturer of draw cords, plain &amp; jacquard elastics, twill tapes, printed &amp; woven items, and corrugated carton boxes in Dhaka, Bangladesh.
             </p>
             <div className="flex gap-x-4 text-slate-400">
               <a
@@ -81,23 +81,33 @@ export function Footer() {
               </p>
               <ul className="space-y-2 text-slate-400">
                 <li>
-                  <Link className="hover:text-white transition-colors" href="/gallery/belt">
-                    Leather &amp; PU Belts
+                  <Link className="hover:text-white transition-colors" href="/gallery/draw-cord">
+                    Draw Cord
                   </Link>
                 </li>
                 <li>
-                  <Link className="hover:text-white transition-colors" href="/gallery/woven_belt">
-                    Woven Belts
+                  <Link className="hover:text-white transition-colors" href="/gallery/elastic">
+                    Plain Elastic
                   </Link>
                 </li>
                 <li>
-                  <Link className="hover:text-white transition-colors" href="/gallery/patch">
-                    Patches &amp; Badges
+                  <Link className="hover:text-white transition-colors" href="/gallery/jacquard-elastic">
+                    Jacquard Elastic
                   </Link>
                 </li>
                 <li>
-                  <Link className="hover:text-white transition-colors" href="/gallery/zipper_puller">
-                    Zipper Pullers
+                  <Link className="hover:text-white transition-colors" href="/gallery/twill-tape">
+                    Twill Tape
+                  </Link>
+                </li>
+                <li>
+                  <Link className="hover:text-white transition-colors" href="/gallery/printed-and-woven-item">
+                    Printed &amp; Woven Item
+                  </Link>
+                </li>
+                <li>
+                  <Link className="hover:text-white transition-colors" href="/gallery/carton-box">
+                    Carton Box
                   </Link>
                 </li>
               </ul>
@@ -111,9 +121,9 @@ export function Footer() {
                 <div className="flex items-start space-x-2">
                   <MapPin className="size-4 shrink-0 mt-0.5" />
                   <address className="not-italic">
-                    <span>30/31 Purana Mugotuli, </span>
+                    <span>30/31 Purana Mugoltuli, </span>
                     <br />
-                    Dhaka, Bangladesh
+                    Dhaka 1100, Bangladesh
                   </address>
                 </div>
                 <div className="flex items-center space-x-2">

@@ -28,6 +28,7 @@ const categories = [
     {
         name: 'Draw Cord',
         images: [
+            '/media/products/featured/draw-cord.jpg',
             '/media/products/draw-cord/p1.png',
             '/media/products/draw-cord/p2.png',
             '/media/products/draw-cord/p3.png',
@@ -40,6 +41,7 @@ const categories = [
     {
         name: 'Elastic',
         images: [
+            '/media/products/featured/elastic.jpg',
             '/media/products/elastic/p1.png',
             '/media/products/elastic/p2.png',
             '/media/products/elastic/p3.png',
@@ -53,6 +55,7 @@ const categories = [
     {
         name: 'Jacquard Elastic',
         images: [
+            '/media/products/featured/jacquard-elastic.jpg',
             '/media/products/jacquard-elastic/p1.png',
             '/media/products/jacquard-elastic/p2.png',
             '/media/products/jacquard-elastic/p3.png',
@@ -66,6 +69,7 @@ const categories = [
     {
         name: 'Twill Tape',
         images: [
+            '/media/products/featured/twill-tape.jpg',
             '/media/products/twill-tape/p1.png',
             '/media/products/twill-tape/p2.png',
             '/media/products/twill-tape/p3.png',
@@ -74,6 +78,7 @@ const categories = [
     {
         name: 'Printed and Woven Item',
         images: [
+            '/media/products/featured/printed-woven-item.jpg',
             '/media/products/printed-woven-item/p1.png',
             '/media/products/printed-woven-item/p2.png',
             '/media/products/printed-woven-item/p3.png',
@@ -85,6 +90,7 @@ const categories = [
     {
         name: 'Carton Box',
         images: [
+            '/media/products/featured/carton-box.jpg',
             '/media/products/carton-box/p1.png',
             '/media/products/carton-box/p2.png',
             '/media/products/carton-box/p3.png',
