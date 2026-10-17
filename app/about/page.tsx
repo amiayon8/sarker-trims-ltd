@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   title: "About Sarker Trims | Garment Trims & Packaging Manufacturer in Dhaka",
   description:
     "Learn about Sarker Trims, established in 2015 in Dhaka. B2B manufacturer of draw cords, plain and jacquard elastics, twill tapes, printed/woven labels, and corrugated export carton boxes.",
+  alternates: {
+    canonical: "/about",
+  },
+  openGraph: {
+    title: "About Sarker Trims | Garment Trims & Packaging Manufacturer in Dhaka",
+    description:
+      "Learn about Sarker Trims, established in 2015 in Dhaka. B2B manufacturer of draw cords, plain and jacquard elastics, twill tapes, printed/woven labels, and corrugated export carton boxes.",
+    url: "https://www.sarkertrims.com/about",
+  },
 };
 
 export default function AboutPage() {

@@ -21,9 +21,19 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { category } = await params;
   const formattedCategory = category.replace(/-/g, " ");
+  const title = `${formattedCategory.toUpperCase()} | Product Gallery | Sarker Trims`;
+  const description = `Explore custom ${formattedCategory} manufactured by Sarker Trims in Dhaka, Bangladesh. Fast sampling and reliable bulk production for garment factories and brands.`;
   return {
-    title: `${formattedCategory.toUpperCase()} | Product Gallery | Sarker Trims`,
-    description: `Explore custom ${formattedCategory} manufactured by Sarker Trims in Dhaka, Bangladesh. Fast sampling and reliable bulk production for garment factories and brands.`,
+    title,
+    description,
+    alternates: {
+      canonical: `/gallery/${category}`,
+    },
+    openGraph: {
+      title,
+      description,
+      url: `https://www.sarkertrims.com/gallery/${category}`,
+    },
   };
 }
 
