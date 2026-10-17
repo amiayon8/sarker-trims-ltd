@@ -28,45 +28,15 @@ export function GalleryView({ currentCategory = "all" }: { currentCategory?: str
     },
     {
       category: "draw-cord",
-      title: "Round Braided Drawstring Cord",
-      alt: "Round braided drawstring cord — Sarker Trims",
-      src: "/media/products/draw-cord/p1.png",
+      title: "Coiled Apparel Cords with Brushed Metal Tips",
+      alt: "Coiled apparel draw cords with brushed metal tips — Sarker Trims",
+      src: "/media/products/featured/draw-cord-2.jpg",
     },
     {
       category: "draw-cord",
-      title: "Two-Tone Hooded Sweatshirt Cord",
-      alt: "Two-tone hooded sweatshirt cord — Sarker Trims",
-      src: "/media/products/draw-cord/p2.png",
-    },
-    {
-      category: "draw-cord",
-      title: "Silicone-Dipped Tip Draw Cord",
-      alt: "Silicone-dipped tip draw cord — Sarker Trims",
-      src: "/media/products/draw-cord/p3.png",
-    },
-    {
-      category: "draw-cord",
-      title: "Sportswear Flat Braided Cord",
-      alt: "Sportswear flat braided cord — Sarker Trims",
-      src: "/media/products/draw-cord/p4.png",
-    },
-    {
-      category: "draw-cord",
-      title: "Engraved Metal Tip Drawstring",
-      alt: "Engraved metal tip drawstring — Sarker Trims",
-      src: "/media/products/draw-cord/p5.png",
-    },
-    {
-      category: "draw-cord",
-      title: "Heavy-Duty Spun Polyester Cord",
-      alt: "Heavy-duty spun polyester cord — Sarker Trims",
-      src: "/media/products/draw-cord/p6.png",
-    },
-    {
-      category: "draw-cord",
-      title: "Custom Dyed Drawstring Cord",
-      alt: "Custom dyed drawstring cord — Sarker Trims",
-      src: "/media/products/draw-cord/p7.png",
+      title: "Flat Braided Hoodie Cords with Silicone Dipped Tips",
+      alt: "Flat braided hoodie cords with silicone dipped tips — Sarker Trims",
+      src: "/media/products/featured/draw-cord-3.jpg",
     },
 
     {
@@ -77,199 +47,49 @@ export function GalleryView({ currentCategory = "all" }: { currentCategory?: str
     },
     {
       category: "elastic",
-      title: "White Knitted Waistband Elastic",
-      alt: "White knitted waistband elastic — Sarker Trims",
-      src: "/media/products/elastic/p1.png",
+      title: "Multi-Width Plain Apparel Elastic Spool Stack",
+      alt: "Multi-width plain apparel elastic spool stack — Sarker Trims",
+      src: "/media/products/featured/elastic-2.jpg",
     },
     {
       category: "elastic",
-      title: "Black High-Recovery Elastic Tape",
-      alt: "Black high-recovery elastic tape — Sarker Trims",
-      src: "/media/products/elastic/p2.png",
-    },
-    {
-      category: "elastic",
-      title: "Braided Apparel Elastic Tape",
-      alt: "Braided apparel elastic tape — Sarker Trims",
-      src: "/media/products/elastic/p3.png",
-    },
-    {
-      category: "elastic",
-      title: "Wide Knitted Underwear Elastic",
-      alt: "Wide knitted underwear elastic — Sarker Trims",
-      src: "/media/products/elastic/p4.png",
-    },
-    {
-      category: "elastic",
-      title: "Ribbed Plain Elastic Ribbon",
-      alt: "Ribbed plain elastic ribbon — Sarker Trims",
-      src: "/media/products/elastic/p5.png",
-    },
-    {
-      category: "elastic",
-      title: "Multi-Width Plain Elastic Rolls",
-      alt: "Multi-width plain elastic rolls — Sarker Trims",
-      src: "/media/products/elastic/p6.png",
-    },
-    {
-      category: "elastic",
-      title: "Soft Stretch Apparel Elastic",
-      alt: "Soft stretch apparel elastic — Sarker Trims",
-      src: "/media/products/elastic/p7.png",
-    },
-    {
-      category: "elastic",
-      title: "Industrial Garment Elastic Spool",
-      alt: "Industrial garment elastic spool — Sarker Trims",
-      src: "/media/products/elastic/p8.png",
+      title: "High-Recovery Stretch Elastic Tape Performance",
+      alt: "High-recovery stretch elastic tape performance — Sarker Trims",
+      src: "/media/products/featured/elastic-3.jpg",
     },
 
     {
       category: "jacquard-elastic",
-      title: "Custom Woven Jacquard Elastic Waistband Webbing (Up to 5.5cm)",
+      title: "Custom Woven Jacquard Waistband Webbing (Up to 5.5cm)",
       alt: "Custom woven jacquard elastic waistband webbing — Sarker Trims",
       src: "/media/products/featured/jacquard-elastic.jpg",
     },
     {
       category: "jacquard-elastic",
-      title: "Athletic Performance Jacquard Elastic",
-      alt: "Athletic performance jacquard elastic — Sarker Trims",
-      src: "/media/products/jacquard-elastic/p1.png",
-    },
-    {
-      category: "jacquard-elastic",
-      title: "Embossed Weave Brand Logo Elastic",
-      alt: "Embossed weave brand logo elastic — Sarker Trims",
-      src: "/media/products/jacquard-elastic/p2.png",
-    },
-    {
-      category: "jacquard-elastic",
-      title: "Two-Tone Jacquard Underwear Band",
-      alt: "Two-tone jacquard underwear band — Sarker Trims",
-      src: "/media/products/jacquard-elastic/p3.png",
-    },
-    {
-      category: "jacquard-elastic",
-      title: "Patterned Jacquard Sportswear Tape",
-      alt: "Patterned jacquard sportswear tape — Sarker Trims",
-      src: "/media/products/jacquard-elastic/p4.png",
-    },
-    {
-      category: "jacquard-elastic",
-      title: "High-Density Jacquard Lettering Band",
-      alt: "High-density jacquard lettering band — Sarker Trims",
-      src: "/media/products/jacquard-elastic/p5.png",
-    },
-    {
-      category: "jacquard-elastic",
-      title: "Contrast Edge Jacquard Elastic",
-      alt: "Contrast edge jacquard elastic — Sarker Trims",
-      src: "/media/products/jacquard-elastic/p6.png",
-    },
-    {
-      category: "jacquard-elastic",
-      title: "Geometric Jacquard Waistband Webbing",
-      alt: "Geometric jacquard waistband webbing — Sarker Trims",
-      src: "/media/products/jacquard-elastic/p7.png",
-    },
-    {
-      category: "jacquard-elastic",
-      title: "Custom Typography Jacquard Elastic",
-      alt: "Custom typography jacquard elastic — Sarker Trims",
-      src: "/media/products/jacquard-elastic/p8.png",
+      title: "Monochrome Raised Weave Jacquard Sportswear Band",
+      alt: "Monochrome raised weave jacquard sportswear band — Sarker Trims",
+      src: "/media/products/featured/jacquard-elastic-2.jpg",
     },
 
     {
       category: "twill-tape",
       title: "Needle Loom Herringbone Twill Tape (Cotton & Polyester)",
-      alt: "Needle loom herringbone twill tape — Sarker Trims",
+      alt: "Needle loom herringbone twill tape in multiple colors — Sarker Trims",
       src: "/media/products/featured/twill-tape.jpg",
-    },
-    {
-      category: "twill-tape",
-      title: "Natural Cotton Herringbone Twill Tape",
-      alt: "Natural cotton herringbone twill tape — Sarker Trims",
-      src: "/media/products/twill-tape/p1.png",
-    },
-    {
-      category: "twill-tape",
-      title: "Bright Polyester Binding Twill Tape",
-      alt: "Bright polyester binding twill tape — Sarker Trims",
-      src: "/media/products/twill-tape/p2.png",
-    },
-    {
-      category: "twill-tape",
-      title: "Heavy Needle Loom Seam Tape",
-      alt: "Heavy needle loom seam tape — Sarker Trims",
-      src: "/media/products/twill-tape/p3.png",
     },
 
     {
       category: "printed-and-woven-item",
-      title: "Woven Brand Labels, Printed Care Tags & Badges",
-      alt: "Woven brand labels, printed care tags and badges — Sarker Trims",
+      title: "Damask Woven Brand Labels, Printed Care Tags & Badges",
+      alt: "Damask woven brand labels, printed care tags and badges — Sarker Trims",
       src: "/media/products/featured/printed-woven-item.jpg",
-    },
-    {
-      category: "printed-and-woven-item",
-      title: "High-Density Damask Woven Label",
-      alt: "High-density damask woven label — Sarker Trims",
-      src: "/media/products/printed-woven-item/p1.png",
-    },
-    {
-      category: "printed-and-woven-item",
-      title: "Rotary Printed Satin Care Label",
-      alt: "Rotary printed satin care label — Sarker Trims",
-      src: "/media/products/printed-woven-item/p2.png",
-    },
-    {
-      category: "printed-and-woven-item",
-      title: "Embroidered Garment Patch",
-      alt: "Embroidered garment patch — Sarker Trims",
-      src: "/media/products/printed-woven-item/p3.png",
-    },
-    {
-      category: "printed-and-woven-item",
-      title: "Heat-Cut Custom Woven Ribbon",
-      alt: "Heat-cut custom woven ribbon — Sarker Trims",
-      src: "/media/products/printed-woven-item/p4.png",
-    },
-    {
-      category: "printed-and-woven-item",
-      title: "Cotton Printed Neck Tape",
-      alt: "Cotton printed neck tape — Sarker Trims",
-      src: "/media/products/printed-woven-item/p5.png",
-    },
-    {
-      category: "printed-and-woven-item",
-      title: "Apparel Hang Tag & Woven Badge",
-      alt: "Apparel hang tag and woven badge — Sarker Trims",
-      src: "/media/products/printed-woven-item/p6.png",
     },
 
     {
       category: "carton-box",
       title: "3-Ply, 5-Ply & 7-Ply Corrugated Master Export Cartons",
-      alt: "Corrugated master export cartons — Sarker Trims",
+      alt: "Corrugated master export cartons for apparel shipping — Sarker Trims",
       src: "/media/products/featured/carton-box.jpg",
-    },
-    {
-      category: "carton-box",
-      title: "Heavy-Duty Corrugated Master Carton",
-      alt: "Heavy-duty corrugated master carton — Sarker Trims",
-      src: "/media/products/carton-box/p1.png",
-    },
-    {
-      category: "carton-box",
-      title: "Custom Printed Garment Shipping Box",
-      alt: "Custom printed garment shipping box — Sarker Trims",
-      src: "/media/products/carton-box/p2.png",
-    },
-    {
-      category: "carton-box",
-      title: "Export Grade Corrugated Kraft Box",
-      alt: "Export grade corrugated kraft box — Sarker Trims",
-      src: "/media/products/carton-box/p3.png",
     },
   ];
 
@@ -318,34 +138,34 @@ export function GalleryView({ currentCategory = "all" }: { currentCategory?: str
             })}
           </section>
 
-          <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-x-8">
+          <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
             {displayedItems.map((item) => (
-              <div key={item.title} className="group flex flex-col rounded-3xl overflow-hidden border border-muted bg-white transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+              <div key={item.title} className="group flex flex-col rounded-3xl overflow-hidden border border-muted bg-white transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
                 <div className="aspect-4/3 relative overflow-hidden bg-slate-50">
                   <Image
                     alt={item.alt}
                     fill
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     src={item.src}
                     className="size-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
-                <div className="p-4 flex flex-1 flex-col justify-between">
+                <div className="p-6 flex flex-1 flex-col justify-between">
                   <div>
-                    <span className="inline-block text-[11px] font-bold uppercase tracking-wider text-[#b56b3d] mb-1">
+                    <span className="inline-block text-[11px] font-bold uppercase tracking-wider text-[#b56b3d] mb-1.5">
                       {item.category.replace(/-/g, " ")}
                     </span>
-                    <h3 className="text-sm font-semibold text-foreground leading-snug">
+                    <h3 className="text-base font-semibold text-foreground leading-snug">
                       {item.title}
                     </h3>
                   </div>
-                  <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-muted-foreground">
-                    <span>In-house manufacturing</span>
+                  <div className="mt-5 pt-3.5 border-t border-slate-100 flex items-center justify-between text-xs text-muted-foreground">
+                    <span>1-Day Sample Available</span>
                     <Link
                       href="/contact"
-                      className="font-semibold text-primary hover:underline"
+                      className="font-semibold text-primary hover:underline flex items-center gap-1"
                     >
-                      Sample ↗
+                      Request Sample ↗
                     </Link>
                   </div>
                 </div>

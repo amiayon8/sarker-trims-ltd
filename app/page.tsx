@@ -148,8 +148,8 @@ export default function HomePage() {
           className="pointer-events-none absolute inset-0 left-0 top-0 h-full w-full z-0"
           style={{
             background:
-              "linear-gradient(to right, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.45) 50%, rgba(255,255,255,0) 75%, rgba(255,255,255,0) 100%), url('/trims_background.png') left center/cover no-repeat",
-            opacity: 0.35,
+              "linear-gradient(to right, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 75%, rgba(255,255,255,0) 100%), url('/trims_background.jpg') left center/cover no-repeat",
+            opacity: 0.45,
             mixBlendMode: "multiply",
           }}
         />
@@ -363,9 +363,9 @@ export default function HomePage() {
             </div>
             <div className="relative min-h-96 rounded-[28px] overflow-hidden bg-[#d5d4ca]">
               <Image
-                alt="Sarker Trims factory production floor — Dhaka, Bangladesh"
+                alt="Sarker Trims modern weaving and production floor — Dhaka, Bangladesh"
                 fill
-                src="/images/sarkertrims_factory_image_6.png"
+                src="/images/sarkertrims_factory_floor.jpg"
                 className="w-full h-full object-cover"
               />
             </div>
